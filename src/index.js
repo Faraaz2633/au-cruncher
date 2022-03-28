@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
-import { BrowserRouter as Router, Routes, Route, Navigate, Link, Outlet } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 
 import { CSE, FirstSemCse, SecondSemCse, ThirdSemCse, FourthSemCse, FifthSemCse, SixthSemCse, SeventhSemCse, EighthSemCse} from './containers/cse/index';
 
+import { IT, FirstSemIt, SecondSemIt, ThirdSemIt, FourthSemIt, FifthSemIt, SixthSemIt, SeventhSemIt, EighthSemIt } from './containers/It/index';
 
-import FifthSemIt from './containers/It/FifthSemIt';
 
 
 
@@ -29,20 +29,16 @@ ReactDOM.render(
       <Route path="/cse/8sem" element={<EighthSemCse />} />
       
 
-      <Route path="/it" element={<It/>}/>
-      <Route path="/it/5sem" element={ <FifthSemIt />} />
-      {/* <Route path="/it/4sem" element={<Fou/>} /> */}
+      <Route path="/it" element={<IT />} />
+      <Route path="/it/1sem" element={<FirstSemIt />} />
+      <Route path="/it/2sem" element={<SecondSemIt />} />
+      <Route path="/it/3sem" element={<ThirdSemIt />} />
+      <Route path="/it/4sem" element={<FourthSemIt />} />
+      <Route path="/it/5sem" element={<FifthSemIt />} />
+      <Route path="/it/6sem" element={<SixthSemIt />} />
+      <Route path="/it/7sem" element={<SeventhSemIt />} />
+      <Route path="/it/8sem" element={<EighthSemIt />} />
     </Routes>
   </Router>,
   document.getElementById('root')
 );
-
-function It() {
-  return (
-    <div>
-      <Link to="5sem"> Fifth Sem</Link>
-      <Link to="4sem">Fourth Sem</Link>
-
-    </div>
-  )
-}
