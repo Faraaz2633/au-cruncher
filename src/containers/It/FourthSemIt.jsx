@@ -8,7 +8,7 @@ const FourthSemIt = () => {
     const [sub1, setSub1] = useState(sub1Grade * sub1Credit);
 
     const [sub2Grade, setSub2Grade] = useState(10);
-    const [sub2Credit, setSub2Credit] = useState(4);
+    const [sub2Credit, setSub2Credit] = useState(3);
     const [sub2, setSub2] = useState(sub2Grade * sub2Credit);
 
     const [sub3Grade, setSub3Grade] = useState(10);
@@ -24,7 +24,7 @@ const FourthSemIt = () => {
     const [sub5, setSub5] = useState(sub5Grade * sub5Credit);
 
     const [sub6Grade, setSub6Grade] = useState(10);
-    const [sub6Credit, setSub6Credit] = useState(4);
+    const [sub6Credit, setSub6Credit] = useState(3);
     const [sub6, setSub6] = useState(sub6Grade * sub6Credit);
 
     const [sub7Grade, setSub7Grade] = useState(10);
@@ -35,13 +35,17 @@ const FourthSemIt = () => {
     const [sub8Credit, setSub8Credit] = useState(2);
     const [sub8, setSub8] = useState(sub8Grade * sub8Credit);
 
+    const [sub9Grade, setSub9Grade] = useState(10);
+    const [sub9Credit, setSub9Credit] = useState(1);
+    const [sub9, setSub9] = useState(sub9Grade * sub9Credit);
+
     const [result, setResult] = useState(0);
 
     let [isOpen, setIsOpen] = useState(false)
 
     const calculateResult = () => {
-        const totalCredit = sub1Credit + sub2Credit + sub3Credit + sub4Credit + sub5Credit + sub6Credit + sub7Credit + sub8Credit;
-        const totalPoints = sub1 + sub2 + sub3 + sub4 + sub5 + sub6 + sub7 + sub8 ;
+        const totalCredit = sub1Credit + sub2Credit + sub3Credit + sub4Credit + sub5Credit + sub6Credit + sub7Credit + sub8Credit + sub9Credit;
+        const totalPoints = sub1 + sub2 + sub3 + sub4 + sub5 + sub6 + sub7 + sub8 + sub9;
 
         setResult((totalPoints / totalCredit).toFixed(2));
     }
@@ -57,10 +61,10 @@ const FourthSemIt = () => {
             <div>
                 <h1 className="text-2xl font-bold pt-2">Theory</h1>
                 <Subject
-                    name="Communicative English"
+                    name="Probability and Statistics"
                     credit={sub1Credit}
                     setCredit={setSub1Credit}
-                    code="HS8151"
+                    code="MA8391"
                     grade={sub1Grade}
                     setGrade={setSub1Grade}
                     point={sub1}
@@ -68,10 +72,10 @@ const FourthSemIt = () => {
                 />
 
                 <Subject
-                    name="Engineering Mathematics - I"
+                    name="Computer Architecture"
                     credit={sub2Credit}
                     setCredit={setSub2Credit}
-                    code="MA8151"
+                    code="CS8491"
                     grade={sub2Grade}
                     setGrade={setSub2Grade}
                     point={sub2}
@@ -79,10 +83,10 @@ const FourthSemIt = () => {
                 />
 
                 <Subject
-                    name="Engineering Physics"
+                    name="Database Management Systems"
                     credit={sub3Credit}
                     setCredit={setSub3Credit}
-                    code="PH8151"
+                    code="CS8492"
                     grade={sub3Grade}
                     setGrade={setSub3Grade}
                     point={sub3}
@@ -90,10 +94,10 @@ const FourthSemIt = () => {
                 />
 
                 <Subject
-                    name="Engineering Chemistry"
+                    name="Design and Analysis of Algorithms"
                     credit={sub4Credit}
                     setCredit={setSub4Credit}
-                    code="CY8151"
+                    code="CS8451"
                     grade={sub4Grade}
                     setGrade={setSub4Grade}
                     point={sub4}
@@ -101,10 +105,10 @@ const FourthSemIt = () => {
                 />
 
                 <Subject
-                    name="Problem Solving and Python Programming"
+                    name="Operating Systems"
                     credit={sub5Credit}
                     setCredit={setSub5Credit}
-                    code="GE8151"
+                    code="CS8493"
                     grade={sub5Grade}
                     setGrade={setSub5Grade}
                     point={sub5}
@@ -112,10 +116,10 @@ const FourthSemIt = () => {
                 />
 
                 <Subject
-                    name="Engineering Graphics"
+                    name="Environmental Science and Engineering"
                     credit={sub6Credit}
                     setCredit={setSub6Credit}
-                    code="GE8152"
+                    code="GE8291"
                     grade={sub6Grade}
                     setGrade={setSub6Grade}
                     point={sub6}
@@ -124,12 +128,11 @@ const FourthSemIt = () => {
 
                 <h1 className="text-2xl font-bold">Labs / Practicals</h1>
 
-
                 <Subject
-                    name="Problem Solving and Python Programming Laboratory"
+                    name="Database Management Systems Laboratory"
                     credit={sub7Credit}
                     setCredit={setSub7Credit}
-                    code="GE8161"
+                    code="CS8481"
                     grade={sub7Grade}
                     setGrade={setSub7Grade}
                     point={sub7}
@@ -137,14 +140,25 @@ const FourthSemIt = () => {
                 />
 
                 <Subject
-                    name="Physics and Chemistry Laboratory"
+                    name="Operating Systems Laboratory"
                     credit={sub8Credit}
                     setCredit={setSub8Credit}
-                    code="BS8161"
+                    code="CS8461"
                     grade={sub8Grade}
                     setGrade={setSub8Grade}
                     point={sub8}
                     setPoint={setSub8}
+                />
+
+                <Subject
+                    name="Advanced Reading and Writing"
+                    credit={sub9Credit}
+                    setCredit={setSub9Credit}
+                    code="HS8461"
+                    grade={sub9Grade}
+                    setGrade={setSub9Grade}
+                    point={sub9}
+                    setPoint={setSub9}
                 />
             </div>
 

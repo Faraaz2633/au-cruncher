@@ -145,7 +145,7 @@ const SixthSemCse = () => {
                 />
 
                 <Subject
-                    name="Mobile Application Laboratory"
+                    name="Mobile Application Development Laboratory"
                     credit={sub8Credit}
                     setCredit={setSub8Credit}
                     code="CS8662"

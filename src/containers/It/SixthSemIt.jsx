@@ -4,11 +4,11 @@ import Subject from '../../components/Subject';
 
 const SixthSemIt = () => {
     const [sub1Grade, setSub1Grade] = useState(10);
-    const [sub1Credit, setSub1Credit] = useState(4);
+    const [sub1Credit, setSub1Credit] = useState(3);
     const [sub1, setSub1] = useState(sub1Grade * sub1Credit);
 
     const [sub2Grade, setSub2Grade] = useState(10);
-    const [sub2Credit, setSub2Credit] = useState(4);
+    const [sub2Credit, setSub2Credit] = useState(3);
     const [sub2, setSub2] = useState(sub2Grade * sub2Credit);
 
     const [sub3Grade, setSub3Grade] = useState(10);
@@ -24,7 +24,7 @@ const SixthSemIt = () => {
     const [sub5, setSub5] = useState(sub5Grade * sub5Credit);
 
     const [sub6Grade, setSub6Grade] = useState(10);
-    const [sub6Credit, setSub6Credit] = useState(4);
+    const [sub6Credit, setSub6Credit] = useState(3);
     const [sub6, setSub6] = useState(sub6Grade * sub6Credit);
 
     const [sub7Grade, setSub7Grade] = useState(10);
@@ -35,16 +35,25 @@ const SixthSemIt = () => {
     const [sub8Credit, setSub8Credit] = useState(2);
     const [sub8, setSub8] = useState(sub8Grade * sub8Credit);
 
+    const [sub9Grade, setSub9Grade] = useState(10);
+    const [sub9Credit, setSub9Credit] = useState(1);
+    const [sub9, setSub9] = useState(sub9Grade * sub9Credit);
+
+    const [sub10Grade, setSub10Grade] = useState(10);
+    const [sub10Credit, setSub10Credit] = useState(1);
+    const [sub10, setSub10] = useState(sub10Grade * sub10Credit);
+
     const [result, setResult] = useState(0);
 
     let [isOpen, setIsOpen] = useState(false)
 
     const calculateResult = () => {
-        const totalCredit = sub1Credit + sub2Credit + sub3Credit + sub4Credit + sub5Credit + sub6Credit + sub7Credit + sub8Credit;
-        const totalPoints = sub1 + sub2 + sub3 + sub4 + sub5 + sub6 + sub7 + sub8 ;
+        const totalCredit = sub1Credit + sub2Credit + sub3Credit + sub4Credit + sub5Credit + sub6Credit + sub7Credit + sub8Credit + sub9Credit + sub10Credit ;
+        const totalPoints = sub1 + sub2 + sub3 + sub4 + sub5 + sub6 + sub7 + sub8 + sub9 + sub10 ;
 
         setResult((totalPoints / totalCredit).toFixed(2));
     }
+
 
     const toggleModal = () => {
         calculateResult();
@@ -57,10 +66,10 @@ const SixthSemIt = () => {
             <div>
                 <h1 className="text-2xl font-bold pt-2">Theory</h1>
                 <Subject
-                    name="Communicative English"
+                    name="Computational Intelligence"
                     credit={sub1Credit}
                     setCredit={setSub1Credit}
-                    code="HS8151"
+                    code="IT8601"
                     grade={sub1Grade}
                     setGrade={setSub1Grade}
                     point={sub1}
@@ -68,10 +77,10 @@ const SixthSemIt = () => {
                 />
 
                 <Subject
-                    name="Engineering Mathematics - I"
+                    name="Object Oriented Analysis and Design"
                     credit={sub2Credit}
                     setCredit={setSub2Credit}
-                    code="MA8151"
+                    code="CS8592"
                     grade={sub2Grade}
                     setGrade={setSub2Grade}
                     point={sub2}
@@ -79,10 +88,10 @@ const SixthSemIt = () => {
                 />
 
                 <Subject
-                    name="Engineering Physics"
+                    name="Mobile Communication"
                     credit={sub3Credit}
                     setCredit={setSub3Credit}
-                    code="PH8151"
+                    code="IT8602"
                     grade={sub3Grade}
                     setGrade={setSub3Grade}
                     point={sub3}
@@ -90,10 +99,10 @@ const SixthSemIt = () => {
                 />
 
                 <Subject
-                    name="Engineering Chemistry"
+                    name="Big Data Analytics"
                     credit={sub4Credit}
                     setCredit={setSub4Credit}
-                    code="CY8151"
+                    code="CS8091"
                     grade={sub4Grade}
                     setGrade={setSub4Grade}
                     point={sub4}
@@ -101,10 +110,10 @@ const SixthSemIt = () => {
                 />
 
                 <Subject
-                    name="Problem Solving and Python Programming"
+                    name="Computer Graphics and Multimedia"
                     credit={sub5Credit}
                     setCredit={setSub5Credit}
-                    code="GE8151"
+                    code="CS8092"
                     grade={sub5Grade}
                     setGrade={setSub5Grade}
                     point={sub5}
@@ -112,10 +121,10 @@ const SixthSemIt = () => {
                 />
 
                 <Subject
-                    name="Engineering Graphics"
+                    name="Professional Elective I"
                     credit={sub6Credit}
                     setCredit={setSub6Credit}
-                    code="GE8152"
+                    code=""
                     grade={sub6Grade}
                     setGrade={setSub6Grade}
                     point={sub6}
@@ -126,10 +135,10 @@ const SixthSemIt = () => {
 
 
                 <Subject
-                    name="Problem Solving and Python Programming Laboratory"
+                    name="Object Oriented Analysis and Design Laboratory"
                     credit={sub7Credit}
                     setCredit={setSub7Credit}
-                    code="GE8161"
+                    code="CS8582"
                     grade={sub7Grade}
                     setGrade={setSub7Grade}
                     point={sub7}
@@ -137,14 +146,36 @@ const SixthSemIt = () => {
                 />
 
                 <Subject
-                    name="Physics and Chemistry Laboratory"
+                    name="Mobile Application Development Laboratory"
                     credit={sub8Credit}
                     setCredit={setSub8Credit}
-                    code="BS8161"
+                    code="CS8662"
                     grade={sub8Grade}
                     setGrade={setSub8Grade}
                     point={sub8}
                     setPoint={setSub8}
+                />
+
+                <Subject
+                    name="Mini Project"
+                    credit={sub9Credit}
+                    setCredit={setSub9Credit}
+                    code="IT8611"
+                    grade={sub9Grade}
+                    setGrade={setSub9Grade}
+                    point={sub9}
+                    setPoint={setSub9}
+                />
+
+                <Subject
+                    name="Professional Communication"
+                    credit={sub10Credit}
+                    setCredit={setSub10Credit}
+                    code="HS8581"
+                    grade={sub10Grade}
+                    setGrade={setSub10Grade}
+                    point={sub10}
+                    setPoint={setSub10}
                 />
             </div>
 
