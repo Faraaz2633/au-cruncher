@@ -23,7 +23,7 @@ const Subject = ({ name, code, credit, setCredit, grade, setGrade, point, setPoi
                     <div className="flex flex-row justify-center">
                         Credit : <Credit credit={credit} setCredit={setCredit} />
                     </div>
-                    <div className="flex flex-row justify-center">
+                    <div className="flex flex-row justify-center items-center">
                         Grade : <Grades grade={grade} setGrade={setGrade} handlePoint={handlePoint} />
                     </div>
                 </div>
