@@ -10,13 +10,13 @@ import { IT, FirstSemIt, SecondSemIt, ThirdSemIt, FourthSemIt, FifthSemIt, Sixth
 
 import { ECE, FirstSemEce, SecondSemEce, ThirdSemEce, FourthSemEce, FifthSemEce, SixthSemEce, SeventhSemEce, EightSemEce } from './containers/ece/index';
 
-import { EEE } from './containers/eee/index';
+import { EEE, FirstSemEee, SecondSemEee, ThirdSemEee, FourthSemEee, FifthSemEee, SixthSemEee, SeventhSemEee, EightSemEee } from './containers/eee/index';
 
-import { MECH } from './containers/mech/index';
+import { MECH, FirstSemMech, SecondSemMech, ThirdSemMech, FourthSemMech, FifthSemMech, SixthSemMech, SeventhSemMech, EightSemMech} from './containers/mech/index';
 
-import { AUTO } from './containers/auto/index';
+import { AUTO, FirstSemAuto, SecondSemAuto, ThirdSemAuto, FourthSemAuto, FifthSemAuto, SixthSemAuto, SeventhSemAuto, EightSemAuto} from './containers/auto/index';
 
-import { CIVIL } from './containers/civil/index';
+import { CIVIL, FirstSemCivil, SecondSemCivil, ThirdSemCivil, FourthSemCivil, FifthSemCivil, SixthSemCivil, SeventhSemCivil, EightSemCivil } from './containers/civil/index';
 
 import NoPage from './containers/NoPage';
 
@@ -48,8 +48,8 @@ const Router = () => {
                 <Route path="/it/8sem" element={<EighthSemIt />} />
 
                 <Route path="/ece" element={<ECE />} />
-                <Route path="/ece/1sem" element={<FirstSemEce/>}/>
-                <Route path="/ece/2sem" element={<SecondSemEce/>} />
+                <Route path="/ece/1sem" element={<FirstSemEce />}/>
+                <Route path="/ece/2sem" element={<SecondSemEce />} />
                 <Route path="/ece/3sem" element={<ThirdSemEce />} />
                 <Route path="/ece/4sem" element={<FourthSemEce />} />
                 <Route path="/ece/5sem" element={<FifthSemEce />} />
@@ -59,12 +59,44 @@ const Router = () => {
 
 
                 <Route path="/eee" element={<EEE />} />
+                <Route path="/eee/1sem" element={<FirstSemEee />}/>
+                <Route path="/eee/2sem" element={<SecondSemEee />} />
+                <Route path="/eee/3sem" element={<ThirdSemEee />} />
+                <Route path="/eee/4sem" element={<FourthSemEee />} />
+                <Route path="/eee/5sem" element={<FifthSemEee />} />
+                <Route path="/eee/6sem" element={<SixthSemEee />} />
+                <Route path="/eee/7sem" element={<SeventhSemEee />} />
+                <Route path="/eee/8sem" element={<EightSemEee />} />
 
                 <Route path="/mech" element={<MECH />} />
+                <Route path="/mech/1sem" element={<FirstSemMech />}/>
+                <Route path="/mech/2sem" element={<SecondSemMech />} />
+                <Route path="/mech/3sem" element={<ThirdSemMech />} />
+                <Route path="/mech/4sem" element={<FourthSemMech />} />
+                <Route path="/mech/5sem" element={<FifthSemMech />} />
+                <Route path="/mech/6sem" element={<SixthSemMech />} />
+                <Route path="/mech/7sem" element={<SeventhSemMech />} />
+                <Route path="/mech/8sem" element={<EightSemMech />} />
 
                 <Route path="/auto" element={<AUTO />} />
+                <Route path="/auto/1sem" element={<FirstSemAuto />}/>
+                <Route path="/auto/2sem" element={<SecondSemAuto />} />
+                <Route path="/auto/3sem" element={<ThirdSemAuto />} />
+                <Route path="/auto/4sem" element={<FourthSemAuto />} />
+                <Route path="/auto/5sem" element={<FifthSemAuto />} />
+                <Route path="/auto/6sem" element={<SixthSemAuto />} />
+                <Route path="/auto/7sem" element={<SeventhSemAuto />} />
+                <Route path="/auto/8sem" element={<EightSemAuto />} />
 
                 <Route path="/civil" element={<CIVIL />} />
+                <Route path="/civil/1sem" element={<FirstSemCivil />}/>
+                <Route path="/civil/2sem" element={<SecondSemCivil />} />
+                <Route path="/civil/3sem" element={<ThirdSemCivil />} />
+                <Route path="/civil/4sem" element={<FourthSemCivil />} />
+                <Route path="/civil/5sem" element={<FifthSemCivil />} />
+                <Route path="/civil/6sem" element={<SixthSemCivil />} />
+                <Route path="/civil/7sem" element={<SeventhSemCivil />} />
+                <Route path="/civil/8sem" element={<EightSemCivil />} />
 
                 <Route path="*" element={<NoPage/>}/>
             </Routes>
