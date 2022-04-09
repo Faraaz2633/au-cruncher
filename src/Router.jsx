@@ -1,13 +1,23 @@
 import React from 'react';
-
 import App from './App';
-
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 import Navbar from './components/Navbar';
 
 import { CSE, FirstSemCse, SecondSemCse, ThirdSemCse, FourthSemCse, FifthSemCse, SixthSemCse, SeventhSemCse, EighthSemCse } from './containers/cse/index';
 
 import { IT, FirstSemIt, SecondSemIt, ThirdSemIt, FourthSemIt, FifthSemIt, SixthSemIt, SeventhSemIt, EighthSemIt } from './containers/it/index';
+
+import { ECE } from './containers/ece/index';
+
+import { EEE } from './containers/eee/index';
+
+import { MECH } from './containers/mech/index';
+
+import { AUTO } from './containers/auto/index';
+
+import { CIVIL } from './containers/civil/index';
+
 import NoPage from './containers/NoPage';
 
 const Router = () => {
@@ -36,6 +46,16 @@ const Router = () => {
                 <Route path="/it/6sem" element={<SixthSemIt />} />
                 <Route path="/it/7sem" element={<SeventhSemIt />} />
                 <Route path="/it/8sem" element={<EighthSemIt />} />
+
+                <Route path="/ece" element={<ECE />} />
+
+                <Route path="/eee" element={<EEE />} />
+
+                <Route path="/mech" element={<MECH />} />
+
+                <Route path="/auto" element={<AUTO />} />
+
+                <Route path="/civil" element={<CIVIL />} />
 
                 <Route path="*" element={<NoPage/>}/>
             </Routes>

@@ -1,0 +1,1 @@
+export { default as MECH } from './MECH'
