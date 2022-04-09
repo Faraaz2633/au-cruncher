@@ -19,8 +19,8 @@ const Subject = ({ name, code, credit, setCredit, grade, setGrade, point, setPoi
                 <div className="font-semibold flex flex-start w-full px-4">
                     {name} : {code}
                 </div>
-                <div className="flex justify-between w-full px-4 ">
-                    <div className="flex flex-row justify-center">
+                <div className="flex justify-between w-full mt-2 px-4 ">
+                    <div className="flex flex-row justify-center items-center">
                         Credit : <Credit credit={credit} setCredit={setCredit} />
                     </div>
                     <div className="flex flex-row justify-center items-center">

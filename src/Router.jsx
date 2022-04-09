@@ -8,7 +8,7 @@ import { CSE, FirstSemCse, SecondSemCse, ThirdSemCse, FourthSemCse, FifthSemCse,
 
 import { IT, FirstSemIt, SecondSemIt, ThirdSemIt, FourthSemIt, FifthSemIt, SixthSemIt, SeventhSemIt, EighthSemIt } from './containers/it/index';
 
-import { ECE } from './containers/ece/index';
+import { ECE, FirstSemEce, SecondSemEce, ThirdSemEce, FourthSemEce, FifthSemEce, SixthSemEce, SeventhSemEce, EightSemEce } from './containers/ece/index';
 
 import { EEE } from './containers/eee/index';
 
@@ -48,6 +48,15 @@ const Router = () => {
                 <Route path="/it/8sem" element={<EighthSemIt />} />
 
                 <Route path="/ece" element={<ECE />} />
+                <Route path="/ece/1sem" element={<FirstSemEce/>}/>
+                <Route path="/ece/2sem" element={<SecondSemEce/>} />
+                <Route path="/ece/3sem" element={<ThirdSemEce />} />
+                <Route path="/ece/4sem" element={<FourthSemEce />} />
+                <Route path="/ece/5sem" element={<FifthSemEce />} />
+                <Route path="/ece/6sem" element={<SixthSemEce />} />
+                <Route path="/ece/7sem" element={<SeventhSemEce />} />
+                <Route path="/ece/8sem" element={<EightSemEce />} />
+
 
                 <Route path="/eee" element={<EEE />} />
 

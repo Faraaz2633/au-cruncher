@@ -10,7 +10,7 @@ const Grades = ({ grade, setGrade, handlePoint }) => {
 
   return (
     <div className="ml-1">
-        <select value={grade} className="bg-[#242C3C] text-white rounded-md outline-none" onChange={handleChange}>
+        <select value={grade} className="bg-[#242C3C] text-white rounded-md outline-none p-1" onChange={handleChange}>
             <option value={10}>O</option>
             <option value={9}>A+</option>
             <option value={8}>A</option>
