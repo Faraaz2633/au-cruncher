@@ -6,7 +6,7 @@ const Footer = () => {
 
         <footer className="p-4 bg-[#16171E] rounded-lg shadow md:px-6 md:py-8 ">
             <div className="xl:flex xl:items-center xl:justify-between">
-                <Link to="https://flowbite.com" className="flex items-center mb-4 xl:mb-0">
+                <Link to="/" className="flex items-center mb-4 xl:mb-0">
                     {/* <img src="/docs/images/logo.svg" className="mr-3 h-8" alt="Flowbite Logo" /> */}
                         <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">AU Cruncher</span>
                 </Link>
