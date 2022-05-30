@@ -1,9 +1,0 @@
-export { default as IT } from './IT';
-export { default as FirstSemIt } from './FirstSemIt';
-export { default as SecondSemIt } from './SecondSemIt';
-export { default as ThirdSemIt } from './ThirdSemIt';
-export { default as FourthSemIt } from './FourthSemIt';
-export { default as FifthSemIt } from './FifthSemIt';
-export { default as SixthSemIt } from './SixthSemIt';
-export { default as SeventhSemIt } from './SeventhSemIt';
-export { default as EighthSemIt } from './EighthSemIt';

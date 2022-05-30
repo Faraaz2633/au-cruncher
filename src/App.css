@@ -1,9 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap');
+
 body{
-  background: #111827;
+  background: #1B1D25;
   color: #fff;
+  font-family: 'Montserrat', sans-serif;
 }
 .App {
   text-align: center;
+}
+
+::-webkit-scrollbar {
+	width: 7px;
+	height: 6px;
+	background: transparent;
+}
+::-webkit-scrollbar-thumb {
+	background: #fff;
+	border-radius: 2px;
 }
 
 input::-webkit-outer-spin-button,

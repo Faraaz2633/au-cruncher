@@ -1,5 +1,6 @@
 import { Dialog, Transition } from '@headlessui/react'
-import { Fragment } from 'react'
+import { Fragment } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Modal({ isOpen, setIsOpen, toggleModal, result }) {
 
@@ -40,7 +41,7 @@ export default function Modal({ isOpen, setIsOpen, toggleModal, result }) {
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <div className="inline-block w-full max-w-md p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-[#071531] border border-[#D53580] shadow-xl rounded-2xl">
+              <div className="inline-block w-full max-w-md p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-[#21222D] border-4 border-[#D53580] shadow-xl rounded-2xl">
                 <Dialog.Title
                   as="h3"
                   className="text-lg font-medium leading-6 text-white"
@@ -53,14 +54,18 @@ export default function Modal({ isOpen, setIsOpen, toggleModal, result }) {
                   </p>
                 </div>
 
-                <div className="mt-4">
+                <div className="mt-4 flex justify-between">
                   <button
                     type="button"
-                    className="inline-flex justify-center px-4 py-2 text-sm font-medium text-blue-900 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500"
+                    className="inline-flex mr-1 justify-center px-4 py-2 text-sm font-bold text-[#0689FF] border-2 border-transparent rounded-md hover:border-[#0689FF] focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500"
                     onClick={toggleModal}
                   >
                     Got it, thanks!
                   </button>
+                  {/* <Link 
+                    to="/mailForm"
+                    className="inline-flex ml-1 px-4 py-2 text-sm font-medium text-blue-900 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500"  
+                  >Get CGPA in mail</Link> */}
                 </div>
               </div>
             </Transition.Child>

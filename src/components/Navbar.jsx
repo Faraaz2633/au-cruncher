@@ -10,30 +10,12 @@ const Navbar = () => {
     }
     return (
         <div>
-            {/* <nav className=" border-gray-200 px-2 sm:px-4 py-2.5 rounded bg-[#1F1D36]">
-                <div className="container flex flex-wrap justify-between items-center mx-auto">
-                    <Link to="/" className="flex items-center">
-                        <span className="self-center text-xl font-semibold whitespace-nowrap text-white hover:text-[#E0CCFF]">
-                            CGPA Calculator
-                        </span>
-                    </Link>
-                    <div className=" block w-auto" id="mobile-menu">
-                        <ul className="flex  flex-row space-x-8 mt-0 text-lg font-medium">
-                            <li>
-                                <a href="https://www.mdfaraz.tech/" target="_blank" rel="noreferrer" classNameName="block  text-white rounded bg-transparent p-0 hover:text-[#E0CCFF]" aria-current="page">Contact</a>
-                            </li>
-                        </ul>
-
-
-                    </div >
-                </div >
-            </nav > */}
             <div className="relative bg-[#1d2536]">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6">
                     <div className="flex justify-between items-center py-6 lg:justify-start md:space-x-10">
                         <div className="flex justify-start lg:w-0 lg:flex-1">
                             <Link to="/">
-                                <span className=" text-xl font-medium md:text-2xl lg:text-3xl text-white">CGPA Calculator</span>
+                                <span className=" text-xl font-medium md:text-2xl lg:text-3xl text-white">AU Cruncher</span>
                             </Link>
                         </div>
                         <div className="-mr-2 -my-2 " onClick={handleNav}>
@@ -56,7 +38,7 @@ const Navbar = () => {
                         <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-[#1a202b] divide-y-2 divide-gray-50">
                             <div className="pt-5 pb-6 px-5">
                                 <div className="flex items-center justify-between bg-[#1a2234] p-3 rounded-lg">
-                                    <div className="text-xl font-medium md:text-2xl text-white"> CGPA Calculator
+                                    <div className="text-xl font-medium md:text-2xl text-white"> AU Cruncher
                                     </div>
                                     <div className="-mr-2 pr-2">
                                         <button type="button" onClick={handleNav}
@@ -83,7 +65,7 @@ const Navbar = () => {
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
                                                         d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
                                                 </svg>
-                                                <span className="ml-3 text-base font-medium text-white">{data.name}</span>
+                                                <span className="ml-2 pl-2 text-base font-medium text-white">{data.name}</span>
                                             </Link>
                                         ))}
                                         <a onClick={handleNav} href="https://www.mdfaraz.tech" target="_blank" className="-m-3 p-3 flex items-center rounded-md hover:bg-[#252e43]">
