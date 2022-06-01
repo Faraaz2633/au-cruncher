@@ -14,6 +14,20 @@ const Sem1Cse = () => {
           chapterName: 'Unit 2 - Functions of Several Variables',
           content: 'Partial differentiation — Homogeneous functions and Euler?s theorem — Total derivative — Change of variables — Jacobians — Partial differentiation of implicit functions — Taylor?s series for functions of two variables — Maxima and minima of functions of two variables — Lagrange?s method of undetermined multipliers.'
         }
+      ],
+      links:[
+        {
+          url:'https://n.stucor.in/semester/STUCOR_MA8151-BH.pdf',
+          title: 'Notes'
+        },
+        {
+          url:'https://n.stucor.in/semester/STUCOR_MA8151-BH.pdf',
+          title: 'Notes'
+        },
+        {
+          url:'https://n.stucor.in/semester/STUCOR_MA8151-BH.pdf',
+          title: 'Notes'
+        }
       ]
     },
     {
@@ -32,7 +46,7 @@ const Sem1Cse = () => {
   ]
   return (
     <div className="min-h-screen pt-12 m-auto w-[90%]">
-        <h1>CSE Sem - 1</h1>
+        <h1 className="text-xl font-semibold flex justify-center">CSE Sem - 1</h1>
         <Accordions data={data} />
     </div>
   )
