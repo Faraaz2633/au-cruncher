@@ -27,6 +27,11 @@ import NoPage from './containers/NoPage';
 import Header from './components/header/Header';
 
 import Footer from './components/Footer';
+import CollegeReview from './containers/college-review/CollegeReview';
+import Login from './containers/college-review/Login';
+import Syllabus from './containers/syllabus/Syllabus';
+
+import { Sem1Cse } from './containers/syllabus/cse';
 
 const Router = () => {
     return (
@@ -108,6 +113,14 @@ const Router = () => {
                 <Route path="/gpa/civil/8sem" element={<EightSemCivil />} />
 
                 <Route path="mailForm" element={<MailForm />} />
+
+                <Route path="/syllabus" element={<Syllabus />} />
+                <Route path="/syllabus/cse" element={<CSE />} />
+                <Route path="/syllabus/cse/1sem" element={<Sem1Cse />} />
+
+                <Route path="/collegereview" element={<CollegeReview />} />
+
+                <Route path="/login" element={<Login />} />
 
                 <Route path="*" element={<NoPage/>}/>
             </Routes>

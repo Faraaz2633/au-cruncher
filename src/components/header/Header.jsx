@@ -31,9 +31,9 @@ const Header = () => {
                     <Link to="/gpa" onClick={toggleOpen}  className="nav_links">GPA Calc</Link>
                     <Link to="/" onClick={toggleOpen}  className="nav_links">CGPA Calc</Link>
                     <Link to="/" onClick={toggleOpen}  className="nav_links">Attendence Calc</Link>
-                    <Link to="/" onClick={toggleOpen}  className="nav_links">Syllabus</Link>
+                    <Link to="/syllabus" onClick={toggleOpen}  className="nav_links">Syllabus</Link>
                     <Link to="/" onClick={toggleOpen}  className="nav_links">Results</Link>
-                    <Link to="/" onClick={toggleOpen}  className="nav_links">College Review</Link>
+                    <Link to="/collegereview" onClick={toggleOpen}  className="nav_links">College Review</Link>
                     <Link to="/" onClick={toggleOpen}  className="nav_links">Dev Hub</Link>
                 </div>
             </nav>

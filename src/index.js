@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Router from './Router';
 
-import { ResultProvider } from './context/Context';
+import { ResultProvider, AuthProvider } from './context/Context';
 ReactDOM.render(
-    <ResultProvider>
-        <Router />
-    </ResultProvider>
+    <AuthProvider>
+        <ResultProvider>
+            <Router />
+        </ResultProvider>
+    </AuthProvider>
 
     , document.getElementById('root'));
