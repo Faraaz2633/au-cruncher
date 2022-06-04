@@ -156,13 +156,13 @@ const FifthSemAuto = () => {
               
               <Subject
                   name="Professional Communication "
-                  credit={sub8Credit}
-                  setCredit={setSub8Credit}
+                  credit={sub9Credit}
+                  setCredit={setSub9Credit}
                   code="HS8581"
-                  grade={sub8Grade}
-                  setGrade={setSub8Grade}
-                  point={sub8}
-                  setPoint={setSub8}
+                  grade={sub9Grade}
+                  setGrade={setSub9Grade}
+                  point={sub9}
+                  setPoint={setSub9}
               />
           </div>
 
