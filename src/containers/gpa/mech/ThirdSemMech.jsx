@@ -115,18 +115,7 @@ const ThirdSemMech = () => {
                   point={sub5}
                   setPoint={setSub5}
               />
-
-              <Subject
-                  name=""
-                  credit={sub6Credit}
-                  setCredit={setSub6Credit}
-                  code="GE8152"
-                  grade={sub6Grade}
-                  setGrade={setSub6Grade}
-                  point={sub6}
-                  setPoint={setSub6}
-              />
-
+                    
               <h1 className="text-2xl font-bold">Labs / Practicals</h1>
 
               <Subject
