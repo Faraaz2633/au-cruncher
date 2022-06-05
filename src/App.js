@@ -1,10 +1,10 @@
 import './App.css';
-import GPA from './containers/gpa/GPA';
+import HomePage from './containers/HomePage/HomePage';
 
 function App() {
   return (
     <div>
-      <GPA />
+      <HomePage />
     </div>
   );
 }

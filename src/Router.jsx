@@ -1,5 +1,6 @@
 import React from 'react';
 import App from './App';
+import { Toaster } from 'react-hot-toast';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // GPA Routes
@@ -29,14 +30,20 @@ import NoPage from './containers/NoPage';
 import Header from './components/header/Header';
 
 import Footer from './components/Footer';
+
 import CollegeReview from './containers/college-review/CollegeReview';
-import Login from './containers/college-review/Login';
+import CreatePost from './containers/college-review/CreatePost';
+
 import Syllabus from './containers/syllabus/Syllabus';
 
+import Attendence from './containers/attendence/Attendence';
+
+import CGPA from './containers/cgpa/CGPA'
 
 const Router = () => {
     return (
         <BrowserRouter>
+        <Toaster/>
             <Header />
             <Routes>
                 <Route path="/" element={<App />} />
@@ -192,8 +199,11 @@ const Router = () => {
 
 
                 <Route path="/collegereview" element={<CollegeReview />} />
+                <Route path="/collegereview/createpost" element={<CreatePost />}/>
 
-                <Route path="/login" element={<Login />} />
+                <Route path="/attendence" element={<Attendence />} />
+
+                <Route path="/cgpa" element={<CGPA />}/>
 
                 <Route path="mailForm" element={<MailForm />} />
                 <Route path="*" element={<NoPage />} />

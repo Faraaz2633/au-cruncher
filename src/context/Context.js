@@ -16,7 +16,7 @@ export const ResultProvider = props => {
 export const AuthContext = createContext();
 
 export const AuthProvider = props => {
-    const [isAuth, setIsAuth] = useState(false);
+    const [isAuth, setIsAuth] = useState(localStorage.getItem("isAuth"));
 
     return (
         <AuthContext.Provider value={[isAuth, setIsAuth]}>

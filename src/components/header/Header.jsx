@@ -8,7 +8,6 @@ const Header = () => {
 
     const toggleOpen = () => {
         setIsOpen(prevState => !prevState);
-        console.log('toggle')
     }
 
     return (
@@ -29,10 +28,10 @@ const Header = () => {
 
                 <div className="nav_items">
                     <Link to="/gpa" onClick={toggleOpen}  className="nav_links">GPA Calc</Link>
-                    <Link to="/" onClick={toggleOpen}  className="nav_links">CGPA Calc</Link>
-                    <Link to="/" onClick={toggleOpen}  className="nav_links">Attendence Calc</Link>
+                    <Link to="/cgpa" onClick={toggleOpen}  className="nav_links">CGPA Calc</Link>
+                    <Link to="/attendence" onClick={toggleOpen}  className="nav_links">Attendence Calc</Link>
                     <Link to="/syllabus" onClick={toggleOpen}  className="nav_links">Syllabus</Link>
-                    <Link to="/" onClick={toggleOpen}  className="nav_links">Results</Link>
+                    <a href="http://coe1.annauniv.edu/home/students_corner.php" target="_blank" onClick={toggleOpen}  className="nav_links">Results</a>
                     <Link to="/collegereview" onClick={toggleOpen}  className="nav_links">College Review</Link>
                     <Link to="/" onClick={toggleOpen}  className="nav_links">Dev Hub</Link>
                 </div>
