@@ -4,6 +4,7 @@ import './index.css';
 import Router from './Router';
 
 import { ResultProvider, AuthProvider } from './context/Context';
+
 ReactDOM.render(
     <AuthProvider>
         <ResultProvider>
