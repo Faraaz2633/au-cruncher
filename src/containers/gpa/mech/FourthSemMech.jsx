@@ -45,8 +45,8 @@ const FourthSemMech = () => {
   let [isOpen, setIsOpen] = useState(false)
 
   const calculateResult = () => {
-      const totalCredit = sub1Credit + sub2Credit + sub3Credit + sub4Credit + sub5Credit + sub6Credit + sub7Credit + sub8Credit;
-      const totalPoints = sub1 + sub2 + sub3 + sub4 + sub5 + sub6 + sub7 + sub8 ;
+      const totalCredit = sub1Credit + sub2Credit + sub3Credit + sub4Credit + sub5Credit + sub6Credit + sub7Credit + sub8Credit + sub9Credit;
+      const totalPoints = sub1 + sub2 + sub3 + sub4 + sub5 + sub6 + sub7 + sub8 + sub9;
 
       setResult((totalPoints / totalCredit).toFixed(2));
   }
