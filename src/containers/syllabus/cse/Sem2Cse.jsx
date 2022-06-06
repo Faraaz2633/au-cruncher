@@ -5,150 +5,151 @@ import Accordions from '../../../components/Accordions'
 const Sem2Cse = () => {
   const data = [
     {
-      subjectName: 'HS8151–Communicative English',
+      subjectName: 'MA8251–Engineering Mathematics II',
         units:[
           {
-            chapterName: 'Unit 1 -',
-            content: ''
+            chapterName: 'Unit 1 - MATRICES',
+            content: 'Eigenvalues and Eigenvectors of a real matrix — Characteristic equation — Properties of Eigenvalues and Eigenvectors — Cayley-Hamilton theorem — Diagonalization of matrices — Reduction of a quadratic form to canonical form by orthogonal transformation — Nature of quadratic forms.'
           },
           {
-            chapterName: 'Unit 2 -',
-            content: ''
+            chapterName: 'Unit 2 - VECTOR CALCULUS',
+            content: 'Gradient and directional derivative — Divergence and curl — Vector identities — Irrotational and Solenoidal vector fields — Line integral over a plane curve — Surface integral — Area of a curved surface — Volume integral — Green?s, Gauss divergence and Stoke?s theorems — Verification and application in evaluating line, surface and volume integrals.'
           },
           {
-            chapterName: 'Unit 3 -',
-            content: ''
+            chapterName: 'Unit 3 - ANALYTIC FUNCTIONS',
+            content: 'Analytic functions — Necessary and sufficient conditions for analyticity in Cartesian and polar coordinates — Properties — Harmonic conjugates — Construction of analytic function — Conformal mapping — Mapping by functions, — Bilinear transformation.'
           },
           {
-            chapterName: 'Unit 4 -',
-            content: ''
+            chapterName: 'Unit 4 - COMPLEX INTEGRATION',
+            content: 'Line integral — Cauchy?s integral theorem — Cauchy?s integral formula — Taylor?s and Laurent?s series — Singularities — Residues — Residue theorem — Application of residue theorem for evaluation of real integrals — Use of circular contour and semicircular contour.'
           },
           {
-            chapterName: 'Unit 5 -',
-            content: ''
+            chapterName: 'Unit 5 - LAPLACE TRANSFORMS',
+            content: 'Existence conditions — Transforms of elementary functions — Transform of unit step function and unit impulse function — Basic properties — Shifting theorems -Transforms of derivatives and integrals — Initial and final value theorems — Inverse transforms — Convolution theorem — Transform of periodic functions — Application to solution of linear second order ordinary differential equations with constant coefficients.'
           }
         ]
       },
       {
-        subjectName: 'HS8151–Communicative English',
+        subjectName: 'GE8291–Environmental Science and Engineering',
           units:[
             {
-              chapterName: 'Unit 1 -',
-              content: ''
+              chapterName: 'Unit 1 - ENVIRONMENT, ECOSYSTEMS AND BIODIVERSITY',
+              content: 'GE8291 Definition, scope and importance of environment — need for public awareness — concept of an ecosystem — structure and function of an ecosystem — producers, consumers and decomposers — energy flow in the ecosystem — ecological succession — food chains, food webs and ecological pyramids — Introduction, types, characteristic features, structure and function of the (a) forest ecosystem (b) grassland ecosystem (c) desert ecosystem (d) aquatic ecosystems (ponds, streams, lakes, rivers, oceans, estuaries) — Introduction to biodiversity definition: genetic, species and ecosystem diversity — biogeographical classification of India — value of biodiversity: consumptive use, productive use, social, ethical, aesthetic and option values — Biodiversity at global, national and local levels — India as a mega-diversity nation — hot-spots of biodiversity — threats to biodiversity: habitat loss, poaching of wildlife, man-wildlife conflicts — endangered and endemic species of India — conservation of biodiversity: In-situ and ex-situ conservation of biodiversity. Field study of common plants, insects, birds; Field study of simple ecosystems — pond, river, hill slopes, etc.'
             },
             {
-              chapterName: 'Unit 2 -',
-              content: ''
+              chapterName: 'Unit 2 - ENVIRONMENTAL POLLUTION',
+              content: 'Definition — causes, effects and control measures of: (a) Air pollution (b) Water pollution (c) Soil pollution (d) Marine pollution (e) Noise pollution (f) Thermal pollution (g) Nuclear hazards — solid waste management: causes, effects and control measures of municipal solid wastes — role of an individual in prevention of pollution — pollution case studies — disaster management: floods, earthquake, cyclone and landslides. Field study of local polluted site — Urban / Rural / Industrial / Agricultural.'
             },
             {
-              chapterName: 'Unit 3 -',
-              content: ''
+              chapterName: 'Unit 3 - NATURAL RESOURCES',
+              content: 'Forest resources: Use and over-exploitation, deforestation, case studies- timber extraction, mining, dams and their effects on forests and tribal people — Water resources: Use and over- utilization of surface and ground water, floods, drought, conflicts over water, dams-benefits and problems — Mineral resources: Use and exploitation, environmental effects of extracting and using mineral resources, case studies — Food resources: World food problems, changes caused by agriculture and overgrazing, effects of modern agriculture, fertilizer-pesticide problems, water logging, salinity, case studies — Energy resources: Growing energy needs, renewable and non renewable energy sources, use of alternate energy sources. case studies — Land resources: Land as a resource, land degradation, man induced landslides, soil erosion and desertification — role of an individual in conservation of natural resources — Equitable use of resources for sustainable lifestyles. Field study of local area to document environmental assets — river / forest / grassland / hill / mountain.'
             },
             {
-              chapterName: 'Unit 4 -',
-              content: ''
+              chapterName: 'Unit 4 - SOCIAL ISSUES AND THE ENVIRONMENT',
+              content: 'From unsustainable to sustainable development — urban problems related to energy — water conservation, rain water harvesting, watershed management — resettlement and rehabilitation of people; its problems and concerns, case studies — role of non-governmental organization- environmental ethics: Issues and possible solutions — climate change, global warming, acid rain, ozone layer depletion, nuclear accidents and holocaust, case studies. — wasteland reclamation — consumerism and waste products — environment production act — Air (Prevention and Control of Pollution) act — Water (Prevention and control of Pollution) act — Wildlife protection act — Forest conservation act — enforcement machinery involved in environmental legislation- central and state pollution control boards- Public awareness.'
             },
             {
-              chapterName: 'Unit 5 -',
-              content: ''
+              chapterName: 'Unit 5 - HUMAN POPULATION AND THE ENVIRONMENT',
+              content: 'Population growth, variation among nations — population explosion — family welfare programme — environment and human health — human rights — value education — HIV / AIDS — women and child welfare — role of information technology in environment and human health — Case studies.'
             },
           ]
         }, {
-          subjectName: 'HS8151–Communicative English',
+          subjectName: 'CS8251 – Programming in C',
             units:[
               {
-                chapterName: 'Unit 1 -',
-                content: ''
+                chapterName: 'Unit 1 - BASICS OF C PROGRAMMING',
+                content: 'Introduction to programming paradigms – Structure of C program – C programming: Data Types — Storage classes – Constants — Enumeration Constants – Keywords — Operators: Precedence and Associativity – Expressions – Input/Output statements, Assignment statements — Decision making statements – Switch statement – Looping statements — Pre-processor directives – Compilation process'
               },
               {
-                chapterName: 'Unit 2 -',
-                content: ''
+                chapterName: 'Unit 2 - ARRAYS AND STRINGS',
+                content: 'Introduction to Arrays: Declaration, Initialization — One dimensional array — Example Program: Computing Mean, Median and Mode – Two dimensional arrays — Example Program: Matrix Operations (Addition, Scaling, Determinant and Transpose) – String operations: length, compare, concatenate, copy — Selection sort, linear and binary search'
               },
               {
-                chapterName: 'Unit 3 -',
-                content: ''
+                chapterName: 'Unit 3 - FUNCTIONS AND POINTERS',
+                content: 'Introduction to functions: Function prototype, function definition, function call, Built-in functions (string functions, math functions) — Recursion — Example Program: Computation of Sine series, Scientific calculator using built-in functions, Binary Search using recursive functions — Pointers — Pointer operators — Pointer arithmetic — Arrays and pointers — Array of pointers — Example Program: Sorting of names — Parameter passing: Pass by value, Pass by reference — Example Program: Swapping of two numbers and changing the value of a variable using pass by reference.'
               },
               {
-                chapterName: 'Unit 4 -',
-                content: ''
+                chapterName: 'Unit 4 - STRUCTURES',
+                content: 'Structure – Nested structures — Pointer and Structures — Array of structures — Example Program using structures and pointers — Self referential structures — Dynamic memory allocation – Singly linked list – typedef'
               },
               {
-                chapterName: 'Unit 5 -',
-                content: ''
+                chapterName: 'Unit 5 - FILE PROCESSING',
+                content: 'Files — Types of file processing: Sequential access, Random access — Sequential access file – Example Program: Finding average of numbers stored in sequential access file – Random access file – Example Program: Transaction processing using random access files — Command line arguments'
               },
             ]
-          }, {
-            subjectName: 'HS8151–Communicative English',
+          }, 
+          {
+            subjectName: 'BE8255 – Basic Electrical, Electronics and Measurement Engineering ',
               units:[
                 {
-                  chapterName: 'Unit 1 -',
-                  content: ''
+                  chapterName: 'Unit 1 - ELECTRICAL CIRCUITS ANALYSIS',
+                  content: 'Ohms Law, Kirchhoff?s Law-Instantaneous power- series and parallel circuit analysis with resistive, capacitive and inductive network — nodal analysis, mesh analysis- network theorems — Thevenins theorem, Norton theorem, maximum power transfer theorem and superposition theorem, three phase supply-Instantaneous, Reactive and apparent power-star delta conversion.'
                 },
                 {
-                  chapterName: 'Unit 2 -',
-                  content: ''
+                  chapterName: 'Unit 2 - ELECTRICAL MACHINES ',
+                  content: 'DC and AC ROTATING MACHINES:Types, Construction, principle, Emf and torque equation, application Speed Control- Basics of Stepper Motor — Brushless DC motors- Transformers-Introduction- types and construction, working principle of Ideal transformer-Emf equation- All day efficiency calculation.'
                 },
                 {
-                  chapterName: 'Unit 3 -',
-                  content: ''
+                  chapterName: 'Unit 3 - UTILIZATION OF ELECTRICAL POWER',
+                  content: 'Renewable energy sources-wind and solar panels. Illumination by lamps- Sodium Vapour, Mercury vapour, Fluorescent tube. Domestic refrigerator and air conditioner-Electric circuit, construction and working principle. Batteries-NiCd, Pb Acid and Li ion–Charge and Discharge Characteristics. Protection-need for earthing, fuses and circuit breakers.Energy Tariff calculation for domestic loads.'
                 },
                 {
-                  chapterName: 'Unit 4 -',
-                  content: ''
+                  chapterName: 'Unit 4 - ELECTRONIC CIRCUITS',
+                  content: 'PN Junction-VI Characteristics of Diode, zener diode, Transistors configurations — amplifiers. Op amps- Amplifiers, oscillator,rectifiers, differentiator, integrator, ADC, DAC. Multi vibrator using 555 Timer IC . Voltage regulator IC using LM 723,LM 317.'
                 },
                 {
-                  chapterName: 'Unit 5 -',
-                  content: ''
+                  chapterName: 'Unit 5 - ELECTRICAL MEASUREMENT',
+                  content: 'Characteristic of measurement-errors in measurement, torque in indicating instruments- moving coil and moving iron meters, Energy meter and watt meter. Transducers- classification-thermo electric, RTD, Strain gauge, LVDT, LDR and piezoelectric. Oscilloscope-CRO.'
                 },
               ]
             },
             {
-              subjectName: 'HS8151–Communicative English',
+              subjectName: 'PH8252–Physics for Information Science',
                 units:[
                   {
-                    chapterName: 'Unit 1 -',
-                    content: ''
+                    chapterName: 'Unit 1 - ELECTRICAL PROPERTIES OF MATERIALS',
+                    content: 'Classical free electron theory — Expression for electrical conductivity — Thermal conductivity, expression — Wiedemann-Franz law — Success and failures — electrons in metals — Particle in a three dimensional box — degenerate states — Fermi- Dirac statistics — Density of energy states — Electron in periodic potential — Energy bands in solids — tight binding approximation — Electron effective mass — concept of hole.'
                   },
                   {
-                    chapterName: 'Unit 2 -',
-                    content: ''
+                    chapterName: 'Unit 2 - SEMICONDUCTOR PHYSICS',
+                    content: 'Intrinsic Semiconductors — Energy band diagram — direct and indirect band gap semiconductors — Carrier concentration in intrinsic semiconductors — extrinsic semiconductors — Carrier concentration in N-type & P-type semiconductors — Variation of carrier concentration with temperature — variation of Fermi level with temperature and impurity concentration — Carrier transport in Semiconductor: random motion, drift, mobility and diffusion — Hall effect and devices — Ohmic contacts — Schottky diode.'
                   },
                   {
-                    chapterName: 'Unit 3 -',
-                    content: ''
+                    chapterName: 'Unit 3 - MAGNETIC PROPERTIES OF MATERIALS',
+                    content: 'Magnetic dipole moment — atomic magnetic moments- magnetic permeability and susceptibility — Magnetic material classification: diamagnetism — paramagnetism — ferromagnetism — antiferromagnetism — ferrimagnetism — Ferromagnetism: origin and exchange interaction- saturation magnetization and Curie temperature — Domain Theory- M versus H behaviour — Hard and soft magnetic materials — examples and uses— Magnetic principle in computer data storage — Magnetic hard disc (GMR sensor)'
                   },
                   {
-                    chapterName: 'Unit 4 -',
-                    content: ''
+                    chapterName: 'Unit 4 - OPTICAL PROPERTIES OF MATERIALS',
+                    content: 'Classification of optical materials — carrier generation and recombination processes — Absorption emission and scattering of light in metals, insulators and semiconductors (concepts only) — photo current in a P-N diode — solar cell — LED — Organic LED — Laser diodes — Optical data storage techniques.'
                   },
                   {
-                    chapterName: 'Unit 5 -',
-                    content: ''
+                    chapterName: 'Unit 5 - NANO DEVICES',
+                    content: 'Electron density in bulk material — Size dependence of Fermi energy — Quantum confinement — Quantum structures — Density of states in quantum well, quantum wire and quantum dot structure — Band gap of nanomaterials — Tunneling: single electron phenomena and single electron transistor — Quantum dot laser. Conductivity of metallic nanowires — Ballistic transport — Quantum resistance and conductance — Carbon nanotubes: Properties and applications.'
                   },
                 ]
               },
               {
-                subjectName: 'HS8151–Communicative English',
+                subjectName: 'HS8251 – Technical English',
                   units:[
                     {
-                      chapterName: 'Unit 1 -',
-                      content: ''
+                      chapterName: 'Unit 1 - INTRODUCTION TECHNICAL ENGLISH',
+                      content: 'Listening- Listening to talks mostly of a scientific/technical nature and completing information-gap exercises- Speaking –Asking for and giving directions- Reading — reading short technical texts from journals- newsapapers- Writing- purpose statements — extended definitions — issue- writing instructions — checklists-recommendations-Vocabulary Development- technical vocabulary Language Development –subject verb agreement — compound words.'
                     },
                     {
-                      chapterName: 'Unit 2 -',
-                      content: ''
+                      chapterName: 'Unit 2 - READING AND STUDY SKILLS',
+                      content: 'Listening- Listening to longer technical talks and completing exercises based on them-Speaking — describing a process-Reading — reading longer technical texts- identifying the various transitions in a text- paragraphing- Writing- interpreting carts, graphs- vocabulary Development-vocabulary used in formal letters/emails and reports Language Development personal passive voice, numerical adjectives.'
                     },
                     {
-                      chapterName: 'Unit 3 -',
-                      content: ''
+                      chapterName: 'Unit 3 - TECHNICAL WRITING AND GRAMMAR',
+                      content: 'Listening- Listening to classroom lectures talk is on engineering /technology -Speaking — introduction to technical presentations- Reading — longer texts both general and technical, practice in speed reading; Writing-Describing a process, use of sequence words- Vocabulary Development- sequence words- Misspelled words. Language Development- embedded sentences.'
                     },
                     {
-                      chapterName: 'Unit 4 -',
-                      content: ''
+                      chapterName: 'Unit 4 - REPORT WRITING',
+                      content: 'Listening- Listening to documentaries and making notes. Speaking — mechanics of presentations- Reading — reading for detailed comprehension- Writing- email etiquette- job application — cover letter –Resume preparation( via email and hard copy)- analytical essays and issue based essays–Vocabulary Development- finding suitable synonyms-paraphrasing-. Language Development- clauses- if conditionals.'
                     },
                     {
-                      chapterName: 'Unit 5 -',
-                      content: ''
+                      chapterName: 'Unit 5 - GROUP DISCUSSION AND JOB APPLICATIONS',
+                      content: 'Listening- TED/Ink talks; Speaking –participating in a group discussion -Reading– reading and understanding technical articles Writing– Writing reports- minutes of a meeting- accident and survey-Vocabulary Development- verbal analogies Language Development- reported speech.'
                     },
                   ]
                 }
