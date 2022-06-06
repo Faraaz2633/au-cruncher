@@ -12,22 +12,22 @@ const Footer = () => {
                 </Link>
                 <ul className="flex flex-wrap items-center mb-6 text-sm sm:mb-0 text-gray-400">
                     <li>
-                        <Link to="#" className="mr-4 hover:underline hover:text-white md:mr-6 ">GPA Calculator</Link>
+                        <Link to="/gpa" className="mr-4 hover:underline hover:text-white md:mr-6 ">GPA Calculator</Link>
                     </li>
                     <li>
-                        <Link to="#" className="mr-4 hover:underline hover:text-white md:mr-6">CGPA Calculator</Link>
+                        <Link to="/cgpa" className="mr-4 hover:underline hover:text-white md:mr-6">CGPA Calculator</Link>
                     </li>
                     <li>
-                        <Link to="#" className="mr-4 hover:underline hover:text-white md:mr-6 ">Attendence Calculator</Link>
+                        <Link to="/attendence" className="mr-4 hover:underline hover:text-white md:mr-6 ">Attendence Calculator</Link>
                     </li>
                     <li>
-                        <Link to="#" className="mr-4 hover:underline hover:text-white md:mr-6 ">Results</Link>
+                        <a href="http://coe1.annauniv.edu/home/students_corner.php" target="_blank" className="mr-4 hover:underline hover:text-white md:mr-6 ">Results</a>
                     </li>
                     <li>
-                        <Link to="#" className="mr-4 hover:underline hover:text-white md:mr-6 ">Syllabus</Link>
+                        <Link to="/syllabus" className="mr-4 hover:underline hover:text-white md:mr-6 ">Syllabus</Link>
                     </li>
                     <li>
-                        <Link to="#" className="mr-4 hover:underline hover:text-white md:mr-6 ">College Review</Link>
+                        <Link to="/collegereview" className="mr-4 hover:underline hover:text-white md:mr-6 ">College Review</Link>
                     </li>
                     <li>
                         <Link to="#" className="mr-4 hover:underline hover:text-white md:mr-6 ">Dev Hub</Link>
