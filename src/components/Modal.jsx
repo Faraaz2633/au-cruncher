@@ -1,8 +1,18 @@
 import { Dialog, Transition } from '@headlessui/react'
-import { Fragment } from 'react';
+import { Fragment, useState } from 'react';
+import { useSpring, animated, config } from 'react-spring'
 import { Link } from 'react-router-dom';
 
 export default function Modal({ isOpen, setIsOpen, toggleModal, result }) {
+  const [flip, set] = useState(false)
+  const { number } = useSpring({
+    reset: true,
+    reverse: flip,
+    from: { number: 0 },
+    number: Number(result),
+    delay: 200,
+    config: config.molasses,
+  })
 
   return (
     <>
@@ -49,9 +59,9 @@ export default function Modal({ isOpen, setIsOpen, toggleModal, result }) {
                   Congratulations!!
                 </Dialog.Title>
                 <div className="mt-2">
-                  <p className="text-3xl font-bold text-white text-center">
-                    {result}
-                  </p>
+                  <animated.div className="text-3xl font-bold text-white text-center">
+                    {number.to(n => n.toFixed(2))}
+                  </animated.div>
                 </div>
 
                 <div className="mt-4 flex justify-between">

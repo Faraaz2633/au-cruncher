@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import './header.css';
 
 const Header = () => {
@@ -33,7 +33,7 @@ const Header = () => {
                     <Link to="/syllabus" onClick={toggleOpen}  className="nav_links">Syllabus</Link>
                     <a href="http://coe1.annauniv.edu/home/students_corner.php" target="_blank" onClick={toggleOpen}  className="nav_links">Results</a>
                     <Link to="/collegereview" onClick={toggleOpen}  className="nav_links">College Review</Link>
-                    <Link to="/" onClick={toggleOpen}  className="nav_links">Dev Hub</Link>
+                    <Link to="/" onClick={toggleOpen}  className="nav_links">About</Link>
                 </div>
             </nav>
         </header>
