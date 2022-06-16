@@ -1,9 +1,164 @@
 import React from 'react'
+import Accordions from '../../../components/Accordions'
 
-const Sem5It = () => {
+
+const Sem1IT = () => {
+  const data = [
+    {
+      subjectName: 'HS8151–Communicative English',
+        units:[
+          {
+            chapterName: 'Unit 1 -',
+            content: ''
+          },
+          {
+            chapterName: 'Unit 2 -',
+            content: ''
+          },
+          {
+            chapterName: 'Unit 3 -',
+            content: ''
+          },
+          {
+            chapterName: 'Unit 4 -',
+            content: ''
+          },
+          {
+            chapterName: 'Unit 5 -',
+            content: ''
+          }
+        ]
+      },
+      {
+        subjectName: 'HS8151–Communicative English',
+          units:[
+            {
+              chapterName: 'Unit 1 -',
+              content: ''
+            },
+            {
+              chapterName: 'Unit 2 -',
+              content: ''
+            },
+            {
+              chapterName: 'Unit 3 -',
+              content: ''
+            },
+            {
+              chapterName: 'Unit 4 -',
+              content: ''
+            },
+            {
+              chapterName: 'Unit 5 -',
+              content: ''
+            },
+          ]
+        }, {
+          subjectName: 'HS8151–Communicative English',
+            units:[
+              {
+                chapterName: 'Unit 1 -',
+                content: ''
+              },
+              {
+                chapterName: 'Unit 2 -',
+                content: ''
+              },
+              {
+                chapterName: 'Unit 3 -',
+                content: ''
+              },
+              {
+                chapterName: 'Unit 4 -',
+                content: ''
+              },
+              {
+                chapterName: 'Unit 5 -',
+                content: ''
+              },
+            ]
+          }, {
+            subjectName: 'HS8151–Communicative English',
+              units:[
+                {
+                  chapterName: 'Unit 1 -',
+                  content: ''
+                },
+                {
+                  chapterName: 'Unit 2 -',
+                  content: ''
+                },
+                {
+                  chapterName: 'Unit 3 -',
+                  content: ''
+                },
+                {
+                  chapterName: 'Unit 4 -',
+                  content: ''
+                },
+                {
+                  chapterName: 'Unit 5 -',
+                  content: ''
+                },
+              ]
+            },
+            {
+              subjectName: 'HS8151–Communicative English',
+                units:[
+                  {
+                    chapterName: 'Unit 1 -',
+                    content: ''
+                  },
+                  {
+                    chapterName: 'Unit 2 -',
+                    content: ''
+                  },
+                  {
+                    chapterName: 'Unit 3 -',
+                    content: ''
+                  },
+                  {
+                    chapterName: 'Unit 4 -',
+                    content: ''
+                  },
+                  {
+                    chapterName: 'Unit 5 -',
+                    content: ''
+                  },
+                ]
+              },
+              {
+                subjectName: 'HS8151–Communicative English',
+                  units:[
+                    {
+                      chapterName: 'Unit 1 -',
+                      content: ''
+                    },
+                    {
+                      chapterName: 'Unit 2 -',
+                      content: ''
+                    },
+                    {
+                      chapterName: 'Unit 3 -',
+                      content: ''
+                    },
+                    {
+                      chapterName: 'Unit 4 -',
+                      content: ''
+                    },
+                    {
+                      chapterName: 'Unit 5 -',
+                      content: ''
+                    },
+                  ]
+                }
+  ]
   return (
-    <div>Sem5It</div>
+    <div className="min-h-screen pt-12 m-auto w-[90%]">
+        <h1 className="text-xl font-semibold flex justify-center">IT Sem - 1</h1>
+        <Accordions data={data} />
+    </div>
   )
 }
 
-export default Sem5It
+export default Sem1IT
