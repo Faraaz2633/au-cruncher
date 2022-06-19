@@ -33,24 +33,24 @@ const Sem6Cse = () => {
         subjectName: 'IT8076 - Software Testing',
           units:[
             {
-              chapterName: 'Unit 1 -',
-              content: ''
+              chapterName: 'Unit 1 - INTRODUCTION',
+              content: 'Testing as an Engineering Activity – Testing as a Process – Testing Maturity Model- Testing axioms – Basic definitions – Software Testing Principles – The Tester‘s Role in a Software Development Organization – Origins of Defects – Cost of defects – Defect Classes – The Defect Repository and Test Design –Defect Examples- Developer/Tester Support of Developing a Defect Repository.'
             },
             {
-              chapterName: 'Unit 2 -',
-              content: ''
+              chapterName: 'Unit 2 - TEST CASE DESIGN STRATEGIES',
+              content: 'Test case Design Strategies – Using Black Box Approach to Test Case Design – Boundary Value Analysis – Equivalence Class Partitioning – State based testing – Cause-effect graphing – Compatibility testing – user documentation testing – domain testing - Random Testing – Requirements based testing – Using White Box Approach to Test design – Test Adequacy Criteria – static testing vs. structural testing – code functional testing – Coverage and Control Flow Graphs – Covering Code Logic – Paths – code complexity testing – Additional White box testing approaches- Evaluating Test Adequacy Criteria.'
             },
             {
-              chapterName: 'Unit 3 -',
-              content: ''
+              chapterName: 'Unit 3 - LEVELS OF TESTING',
+              content: 'The need for Levels of Testing – Unit Test – Unit Test Planning – Designing the Unit Tests – The Test Harness – Running the Unit tests and Recording results – Integration tests – Designing Integration Tests – Integration Test Planning – Scenario testing – Defect bash elimination System Testing – Acceptance testing – Performance testing – Regression Testing – Internationalization testing – Ad-hoc testing – Alpha, Beta Tests – Testing OO systems – Usability and Accessibility testing – Configuration testing –Compatibility testing – Testing the documentation – Website testing.'
             },
             {
-              chapterName: 'Unit 4 -',
-              content: ''
+              chapterName: 'Unit 4 - TEST MANAGEMENT',
+              content: 'People and organizational issues in testing – Organization structures for testing teams – testing services – Test Planning – Test Plan Components – Test Plan Attachments – Locating Test Items – test management – test process – Reporting Test Results – Introducing the test specialist – Skills needed by a test specialist – Building a Testing Group- The Structure of Testing Group- .The Technical Training Program.'
             },
             {
-              chapterName: 'Unit 5 -',
-              content: ''
+              chapterName: 'Unit 5 - TEST AUTOMATION',
+              content: 'Software test automation – skills needed for automation – scope of automation – design and architecture for automation – requirements for a test tool – challenges in automation – Test metrics and measurements – project, progress and productivity metrics.'
             },
           ]
         }, {

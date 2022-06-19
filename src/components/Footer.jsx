@@ -32,12 +32,12 @@ const Footer = () => {
                     {/* <li>
                         <Link to="#" className="mr-4 hover:underline hover:text-white md:mr-6 ">Dev Hub</Link>
                     </li> */}
-                    <li>
+                    {/* <li>
                         <Link to="#" className="mr-4 hover:underline hover:text-white md:mr-6 ">About</Link>
                     </li>
                     <li>
                         <Link to="#" className="hover:underline hover:text-white">Contact</Link>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
             <div className="w-[90%] m-auto">
