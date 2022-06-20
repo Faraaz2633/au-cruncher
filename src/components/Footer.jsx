@@ -18,7 +18,7 @@ const Footer = () => {
                         <Link to="/cgpa" className="mr-4 hover:underline hover:text-white md:mr-6">CGPA Calculator</Link>
                     </li>
                     <li>
-                        <Link to="/attendence" className="mr-4 hover:underline hover:text-white md:mr-6 ">Attendence Calculator</Link>
+                        <Link to="/attendence" className="mr-4 hover:underline hover:text-white md:mr-6 ">Attendance Calculator</Link>
                     </li>
                     <li>
                         <a href="http://coe1.annauniv.edu/home/students_corner.php" target="_blank" className="mr-4 hover:underline hover:text-white md:mr-6 ">Results</a>

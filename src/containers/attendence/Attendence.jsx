@@ -46,7 +46,7 @@ const Attendence = () => {
         </div>
 
         <div className="bg-[#21222D] p-8 rounded-md max-w-xl m-auto flex justify-around items-center">
-            <span>Your Attendence Percentage is &nbsp;</span>
+            <span>Your Attendance Percentage is &nbsp;</span>
             <span className="text-2xl font-semibold pl-4 sm:pl-0">{percentage < 0 || isNaN(percentage) || !isFinite(percentage) ? '0' : percentage}%</span>
         </div>
     </div>
