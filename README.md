@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+<h1 align="center" id="title">AU Cruncher</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center"><img src="https://socialify.git.ci/Faraaz2633/au-cruncher/image?description=1&amp;font=KoHo&amp;forks=1&amp;language=1&amp;pattern=Circuit%20Board&amp;pulls=1&amp;stargazers=1&amp;theme=Dark" alt="project-image"></p>
 
-## Available Scripts
+<p id="description">An Multi purpose app created for Anna University Students which includes calculating GPA CGPA and Attendance calculator. It also has all the syllabus for all the semester with notes.</p>
+<h2>✨Live </h2>
+AU Cruncher - https://aucruncher.vercel.app
 
-In the project directory, you can run:
 
-### `npm start`
+<h2>📸Project Screenshots:</h2>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img src="https://i.ibb.co/0Cg3jFV/image.png" alt="project-screenshot">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  
+  
+<h2>🧐 Features</h2>
 
-### `npm test`
+Here're some of the project's best features:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+*   GPA Calculator
+*   CGPA Calculator
+*   Attendance Calculator
+*   Syllabus
+*   College Review
 
-### `npm run build`
+<h2>🛠️ Installation Steps:</h2>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p>1. Clone the Repo</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+git clone
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p>2. Install dependencies</p>
 
-### `npm run eject`
+```
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p>3. Start project on local environment</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  
+  
+<h2>💻 Built with</h2>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Technologies used in the project:
 
-## Learn More
+*   React.js
+*   Firebase
+*   Tailwind CSS
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<h2>👨‍💻 Authors </h2>
 
-### Code Splitting
+- [@Faraaz2633](https://github.com/Faraaz2633)
+- [@Sakthi1112](https://github.com/Sakthi1112)
+- [@Magesh08](https://github.com/Magesh08)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
