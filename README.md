@@ -65,5 +65,5 @@ Technologies used in the project:
   <img src = "https://contrib.rocks/image?repo=Faraaz2633/au-cruncher"/>
 </a>
 
-Made with [contributors-img](https://contrib.rocks).
+Made with [contributors-img](https://contrib.rocks)..
 
