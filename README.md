@@ -60,3 +60,10 @@ Technologies used in the project:
 - [@Sakthi1112](https://github.com/Sakthi1112)
 - [@Magesh08](https://github.com/Magesh08)
 
+<h2>🙌 Contributors </h2>
+<a href = "https://github.com/Faraaz2633/au-cruncher/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo = Faraaz2633/au-cruncher"/>
+</a>
+
+Made with [contributors-img](https://contrib.rocks).
+
