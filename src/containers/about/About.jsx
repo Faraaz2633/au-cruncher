@@ -1,4 +1,5 @@
 import React from "react";
+import shri from "./shri.webp";
 
 const About = () => {
   return (
@@ -53,9 +54,16 @@ const About = () => {
             Our Contributes
           </h1>
           {/* main dev */}
-          <div>
+          <div className="flex justify-center mt-5 gap-6 flex-wrap group">
             {/* cont div */}
-            <div></div>
+            {/* <div
+              className="w-[180px] border-2 border-sky-500 h-[190px]
+             rounded-md flex flex-col items-center bg-sky-500 
+            "
+            >
+              <img src={shri} alt="sasa" className="rounded-md" />
+              <h1 className="p-1 text-[18px] font-semibold">Shriprasanna</h1>
+            </div> */}
           </div>
         </section>
       </main>
