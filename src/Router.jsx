@@ -32,6 +32,7 @@ import Header from './components/header/Header';
 import Footer from './components/Footer';
 
 import CollegeReview from './containers/college-review/CollegeReview';
+
 import CreatePost from './containers/college-review/CreatePost';
 
 import Syllabus from './containers/syllabus/Syllabus';
@@ -39,7 +40,10 @@ import Syllabus from './containers/syllabus/Syllabus';
 import Attendence from './containers/attendence/Attendence';
 
 import CGPA from './containers/cgpa/CGPA'
+
 import ScrollToTop from './components/ScrollToTop';
+
+import About from './containers/about/About';
 
 const Router = () => {
     return (
@@ -206,6 +210,8 @@ const Router = () => {
                     <Route path="/attendence" element={<Attendence />} />
 
                     <Route path="/cgpa" element={<CGPA />} />
+
+                    <Route path="/about" element={<About />} />
 
                     <Route path="mailForm" element={<MailForm />} />
                     <Route path="*" element={<NoPage />} />
