@@ -10,7 +10,7 @@ const About = () => {
         About us
       </h1>
       <main className="p-3 md:flex justify-center items-center flex-col">
-        <section className="text-[18px] md:text-2xl">
+        {/* <section className="text-[18px] md:text-2xl">
           An Multi purpose app created for Anna University Students, which
           includes
           <ul className="list-disc ml-9">
@@ -45,11 +45,15 @@ const About = () => {
             </li>
           </ul>{" "}
           <br />
-        </section>
+        </section> */}
+        {/* <h1 className="text-[18px] md:text-2xl">
+          An Multi purpose app created for Anna University Students which
+          includes calculating GPA, CGPA and Attendance calculator. It also has
+          all the syllabus for all the semester with notes.
+        </h1> */}
 
         {/* contributes  */}
-
-        <section>
+        <section className="mt-7">
           <h1 className="text-3xl md:text-4xl text-center font font-semibold ">
             Our Contributes
           </h1>
