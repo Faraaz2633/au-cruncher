@@ -29,13 +29,10 @@ const Footer = () => {
                     <li>
                         <Link to="/collegereview" className="mr-4 hover:underline hover:text-white md:mr-6 ">College Review</Link>
                     </li>
-                    {/* <li>
-                        <Link to="#" className="mr-4 hover:underline hover:text-white md:mr-6 ">Dev Hub</Link>
-                    </li> */}
-                    {/* <li>
-                        <Link to="#" className="mr-4 hover:underline hover:text-white md:mr-6 ">About</Link>
-                    </li>
                     <li>
+                        <Link to="/about" className="mr-4 hover:underline hover:text-white md:mr-6 ">About</Link>
+                    </li>
+                    {/* <li>
                         <Link to="#" className="hover:underline hover:text-white">Contact</Link>
                     </li> */}
                 </ul>
