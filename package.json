@@ -27,6 +27,7 @@
     "react-spring": "^9.4.5",
     "react-top-loading-bar": "^2.1.0",
     "react-tsparticles": "^2.0.6",
+    "start": "^5.1.0",
     "tsparticles": "^2.0.6",
     "web-vitals": "^2.1.4"
   },
