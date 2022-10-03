@@ -21,7 +21,7 @@ const Sem3Cse = () => {
           },
           {
             chapterName: 'Unit 4 - ALGEBRAIC STRUCTURES ',
-            content: 'Algebraic systems — Semi groups and monoids — Groups — Subgroups — Homomorphism?s — Normal subgroup and cosets — Lagrange?s theorem — Definitions and examples of Rings and Fields.'
+            content: 'Algebraic systems — Semi {}groups and monoids — Groups — Subgroups — Homomorphism?s — Normal subgroup and cosets — Lagrange?s theorem — Definitions and examples of Rings and Fields.'
           },
           {
             chapterName: 'Unit 5 - LATTICES AND BOOLEAN ALGEBRA',
