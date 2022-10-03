@@ -1,5 +1,5 @@
 import React from "react";
-import shri from "./shri.webp";
+import shri from "./images/shri.webp";
 import { FaGithub } from "react-icons/fa";
 import { BsLinkedin } from "react-icons/bs";
 
