@@ -4,6 +4,32 @@ import Accordions from '../../../components/Accordions'
 
 const Sem8Cse = () => {
   const data = [
+    {
+      subjectName: 'GE8076-PROFESSIONAL ETHICS  ',
+        units:[
+          {
+            chapterName: 'Unit 1 -HUMAN VALUES       ',
+            content: 'Morals, values and Ethics – Integrity – Work ethic – Service learning – Civic virtue – Respect for others – Living peacefully – Caring – Sharing – Honesty – Courage – Valuing time – Cooperation – Commitment – Empathy – Self confidence – Character – Spirituality – Introduction to Yoga and meditation for professional excellence and stress management.'
+          },
+          {
+            chapterName: 'Unit 2 - ENGINEERING ETHICS ',
+            content: 'Senses of ‗Engineering Ethics‘ – Variety of moral issues – Types of inquiry – Moral dilemmas – Moral Autonomy – Kohlberg‘s theory – Gilligan‘s theory – Consensus and Controversy – Models of professional roles – Theories about right action – Self-interest – Customs and Religion – Uses of Ethical Theories.'
+          },
+          {
+            chapterName: 'Unit 3 - ENGINEERING AS SOCIAL EXPERIMENTATION    ',
+            content: 'Engineering as Experimentation – Engineers as responsible Experimenters – Codes of Ethics – A Balanced Outlook of law'
+          },
+          {
+            chapterName: 'Unit 4 - SAFETY, RESPONSIBILITIES AND RIGHTS  ',
+            content: 'Safety and Risk – Assessment of Safety and Risk – Risk Benefit Analysis and Reducing Risk – Respect for Authority – Collective Bargaining – Confidentiality – Conflicts of Interest – Occupational Crime – Professional Rights – Employee Rights – Intellectual Property Rights (IPR) – Discrimination.'
+          },
+          {
+            chapterName: 'Unit 5 - GLOBAL ISSUES    ',
+            content: 'Multinational Corporations – Environmental Ethics – Computer Ethics – Weapons Development – Engineers as Managers – Consulting Engineers – Engineers as Expert Witnesses and Advisors – Moral Leadership –Code of Conduct – Corporate Social Responsibility.'
+          },
+        ]
+      },
+  
               {
                 subjectName: 'CS8080 - INFORMATION RETRIEVAL TECHNIQUES                   ',
                   units:[
