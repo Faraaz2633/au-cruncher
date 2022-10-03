@@ -279,7 +279,7 @@ const NoPage = () => {
           />
         </svg>
       </div>
-      <div className="flex justify-center m-auto text-white text-lg px-3">
+      <div className="flex justify-center m-auto text-white text-lg px-3 pb-3">
         The page you are looking for is currently not available.
       </div>
     </div>

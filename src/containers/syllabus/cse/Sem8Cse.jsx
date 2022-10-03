@@ -2,7 +2,7 @@ import React from 'react'
 import Accordions from '../../../components/Accordions'
 
 
-const Sem7Cse = () => {
+const Sem8Cse = () => {
   const data = [
     {
       subjectName: 'MG8591 – PRINCIPLES OF MANAGEMENT',
@@ -161,4 +161,4 @@ const Sem7Cse = () => {
   )
 }
 
-export default Sem7Cse
+export default Sem8Cse
