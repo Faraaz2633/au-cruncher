@@ -10,7 +10,7 @@ const NoPage = () => {
           viewBox="0 0 1840 1380"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          style={{height: "auto", width: "100%"}}
+          style={{ height: "auto", width: "100%" }}
         >
           <path
             fill-rule="evenodd"
