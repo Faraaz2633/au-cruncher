@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import Accordions from "../../../components/Accordions";
 
 const Sem1Auto = () => {
@@ -202,7 +202,9 @@ const Sem1Auto = () => {
   ];
   return (
     <div className="min-h-screen pt-12 m-auto w-[90%]">
-      <h1 className="text-xl font-semibold flex justify-center">AUTO Sem - 1</h1>
+      <h1 className="text-xl font-semibold flex justify-center">
+        AUTO Sem - 1
+      </h1>
       <Accordions data={data} />
     </div>
   );
