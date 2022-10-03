@@ -100,6 +100,14 @@ const About = () => {
             </div>
           </div>
         </section>
+
+        {/* <a href="https://github.com/Faraaz2633/au-cruncher/graphs/contributors">
+          <img
+            src="https://contrib.rocks/image?repo=Faraaz2633/au-cruncher"
+            alt="sasa"
+            className="w-[500px] "
+          />
+        </a> */}
       </main>
     </div>
   );
