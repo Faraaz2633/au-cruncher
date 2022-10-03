@@ -1,11 +1,11 @@
 import React from "react";
-import shri from "./images/shri.webp";
-import { FaGithub } from "react-icons/fa";
-import { BsLinkedin } from "react-icons/bs";
+// import shri from "./images/shri.webp";
+// import { FaGithub } from "react-icons/fa";
+// import { BsLinkedin } from "react-icons/bs";
 
 const About = () => {
   return (
-    <div className="mt-10 md:mt-16 leading-8">
+    <div className="mt-10 md:mt-16 leading-8 min-h-screen">
       {/*  about site*/}
 
       <h1 className="text-3xl md:text-4xl text-center font font-semibold">
@@ -57,11 +57,10 @@ const About = () => {
         {/* contributes  */}
         <section className="mt-7">
           <h1 className="text-3xl md:text-4xl text-center font font-semibold ">
-            Our Contributers
+            Our Contributors
           </h1>
-          {/* main dev */}
-          <div className="flex justify-center mt-5 gap-6 flex-wrap ">
-            {/* cont div */}
+
+          {/* <div className="flex justify-center mt-5 gap-6 flex-wrap ">
             <div
               className="w-[180px] border-2 border-sky-500 h-[190px]
              rounded-md flex flex-col items-center bg-sky-500 group
@@ -98,16 +97,16 @@ const About = () => {
                 Shriprasanna
               </h1>
             </div>
-          </div>
+          </div> */}
         </section>
 
-        {/* <a href="https://github.com/Faraaz2633/au-cruncher/graphs/contributors">
+        <a href="https://github.com/Faraaz2633/au-cruncher/graphs/contributors">
           <img
             src="https://contrib.rocks/image?repo=Faraaz2633/au-cruncher"
             alt="sasa"
-            className="w-[500px] "
+            className="w-[800px] mt-6 md:w-[500px]"
           />
-        </a> */}
+        </a>
       </main>
     </div>
   );
