@@ -1,8 +1,34 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 // import { FaGithub } from "react-icons/fa";
 // import { BsLinkedin } from "react-icons/bs";
 
 const About = () => {
+  const [columns, setColumns] = useState(12);
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  
+  const setWindowDimensions = () => {
+    setWindowWidth(window.innerWidth);
+  };
+  useEffect(() => {
+    window.addEventListener("resize", setWindowDimensions);
+    return () => {
+      window.removeEventListener("resize", setWindowDimensions);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (windowWidth <= 420) {
+      setColumns(5);
+    } else if (windowWidth <= 700) {
+      setColumns(7);
+    } else if (windowWidth <= 1024){
+      setColumns(10);
+    } else {
+      setColumns(12);
+    }
+
+  }, [windowWidth])
+
   return (
     <div className="mt-10 md:mt-16 leading-8 md:leading-10 min-h-screen">
       {/*  about site*/}
@@ -105,8 +131,8 @@ const About = () => {
           rel="noreferrer"
         >
           <img
-            src="https://contrib.rocks/image?repo=Faraaz2633/au-cruncher"
-            alt="sasa"
+            src={`https://contrib.rocks/image?repo=Faraaz2633/au-cruncher&columns=${columns}`}
+            alt="Contributors"
             className="w-[800px] mt-6 md:w-[800px]"
           />
         </a>
