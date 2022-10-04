@@ -208,5 +208,3 @@ const Sem1Eee = () => {
     </div>
   );
 }
-
-export default Sem1Eee
