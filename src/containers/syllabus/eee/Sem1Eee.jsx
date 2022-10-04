@@ -1,7 +1,8 @@
-import React from "react";
-import Accordions from "../../../components/Accordions";
+import React from 'react'
+// problam 1
+import Accordions from '../../../components/Accordions';
 
-const Sem1MECH = () => {
+const Sem1Eee = () => {
   const data = [
     {
       subjectName: "MA8151 - Engineering Mathematics - I",
@@ -202,10 +203,8 @@ const Sem1MECH = () => {
   ];
   return (
     <div className="min-h-screen pt-12 m-auto w-[90%]">
-      <h1 className="text-xl font-semibold flex justify-center">MECH Sem - 1</h1>
+      <h1 className="text-xl font-semibold flex justify-center">AUTO Sem - 1</h1>
       <Accordions data={data} />
     </div>
   );
-};
-
-export default Sem1MECH;
+}

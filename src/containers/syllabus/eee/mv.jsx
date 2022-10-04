@@ -1,8 +1,4 @@
-import React from 'react'
-import Accordions from '../../../components/Accordions';
-
-const Sem5Eee = () => {
-  const data = [
+const data = [
     {
         // First sub
       subjectName: "",
@@ -193,6 +189,3 @@ const Sem5Eee = () => {
       <Accordions data={data} />
     </div>
   );
-}
-
-export default Sem5Eee
