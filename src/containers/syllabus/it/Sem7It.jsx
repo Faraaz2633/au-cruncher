@@ -2,7 +2,7 @@ import React from 'react'
 import Accordions from '../../../components/Accordions'
 
 
-const Sem1IT = () => {
+const Sem7IT = () => {
   const data = [
     {
       subjectName: 'MG8591 - PRINCIPLES OF MANAGEMENT', 
@@ -81,10 +81,10 @@ const Sem1IT = () => {
   ]
   return (
     <div className="min-h-screen pt-12 m-auto w-[90%]">
-        <h1 className="text-xl font-semibold flex justify-center">IT Sem - 1</h1>
+        <h1 className="text-xl font-semibold flex justify-center">IT Sem - 7</h1>
         <Accordions data={data} />
     </div>
   )
 }
 
-export default Sem1IT
+export default Sem7IT
