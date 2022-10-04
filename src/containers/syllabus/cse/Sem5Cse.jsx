@@ -70,7 +70,7 @@ const Sem5Cse = () => {
               },
               {
                 chapterName: 'Unit 4 - PROPERTIES OF CONTEXT FREE LANGUAGES',
-                content: 'Normal Forms for CFG — Pumping Lemma for CFL — Closure Properties of CFL — Turing Machines — Programming Techniques for TM Normal Forms for CFG — Pumping Lemma for CFL — Closure Properties of CFL — Turing Machines — Programming Techniques for TM'
+                content: 'Normal Forms for CFG — Pumping Lemma for CFL — Closure Properties of CFL — Turing Machines — Programming Techniques for TM'
               },
               {
                 chapterName: 'Unit 5 - UNDECIDABILITY',
