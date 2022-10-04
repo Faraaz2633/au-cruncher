@@ -1,17 +1,16 @@
 import React from "react";
-// import shri from "./images/shri.webp";
 // import { FaGithub } from "react-icons/fa";
 // import { BsLinkedin } from "react-icons/bs";
 
 const About = () => {
   return (
-    <div className="mt-10 md:mt-16 leading-8 min-h-screen">
+    <div className="mt-10 md:mt-16 leading-8 md:leading-10 min-h-screen">
       {/*  about site*/}
 
       <h1 className="text-3xl md:text-4xl text-center font font-semibold">
         About us
       </h1>
-      <main className="p-3 md:flex justify-center items-center flex-col">
+      <main className="p-3 md:flex justify-center items-center flex-col md:mt-8">
         <section className="text-[18px] md:text-2xl">
           An Multi purpose app created for Anna University Students, which
           includes
@@ -55,8 +54,8 @@ const About = () => {
         </h1> */}
 
         {/* contributes  */}
-        <section className="mt-7">
-          <h1 className="text-3xl md:text-4xl text-center font font-semibold ">
+        <section className="mt-7 md:mt-10">
+          <h1 className="text-3xl md:text-4xl text-center font font-semibold md:mb-5">
             Our Contributors
           </h1>
 
@@ -94,17 +93,21 @@ const About = () => {
                 </li>
               </ul>
               <h1 className="p-1 text-[18px] font-semibold -mt-[30px]">
-                Shriprasanna
+                XXXXXXXXXXXXXXXXX
               </h1>
             </div>
           </div> */}
         </section>
 
-        <a href="https://github.com/Faraaz2633/au-cruncher/graphs/contributors">
+        <a
+          href="https://github.com/Faraaz2633/au-cruncher/graphs/contributors"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img
             src="https://contrib.rocks/image?repo=Faraaz2633/au-cruncher"
             alt="sasa"
-            className="w-[800px] mt-6 md:w-[500px]"
+            className="w-[800px] mt-6 md:w-[800px]"
           />
         </a>
       </main>
