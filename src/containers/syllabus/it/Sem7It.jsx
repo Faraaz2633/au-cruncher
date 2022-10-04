@@ -54,29 +54,29 @@ const Sem1IT = () => {
             },
           ]
         }, {
-          subjectName: 'HS8151–Communicative English',
-            units:[
-              {
-                chapterName: 'Unit 1 -',
-                content: ''
-              },
-              {
-                chapterName: 'Unit 2 -',
-                content: ''
-              },
-              {
-                chapterName: 'Unit 3 -',
-                content: ''
-              },
-              {
-                chapterName: 'Unit 4 -',
-                content: ''
-              },
-              {
-                chapterName: 'Unit 5 -',
-                content: ''
-              },
-            ]
+          subjectName: 'CS8791 – CLOUD COMPUTING',
+          units:[
+            {
+              chapterName: 'Unit 1 -  INTRODUCTION',
+              content: 'Introduction to Cloud Computing – Definition of Cloud – Evolution of Cloud Computing – Underlying Principles of Parallel and Distributed Computing – Cloud Characteristics – Elasticity in Cloud – On-demand Provisioning.'
+            },
+            {
+              chapterName: 'Unit 2 - CLOUD ENABLING TECHNOLOGIES',
+              content: 'Service Oriented Architecture – REST and Systems of Systems – Web Services – PublishSubscribe Model – Basics of Virtualization – Types of Virtualization – Implementation Levels of Virtualization – Virtualization Structures – Tools and Mechanisms – Virtualization of CPU – Memory – I/O Devices –Virtualization Support and Disaster Recovery.'
+            },
+            {
+              chapterName: 'Unit 3 - CLOUD ARCHITECTURE, SERVICES AND STORAGE',
+              content: 'Layered Cloud Architecture Design – NIST Cloud Computing Reference Architecture – Public, Private and Hybrid Clouds - laaS – PaaS – SaaS – Architectural Design Challenges – Cloud Storage – Storage-as-a-Service – Advantages of Cloud Storage – Cloud Storage Providers – S3.'
+            },
+            {
+              chapterName: 'Unit 4 - RESOURCE MANAGEMENT AND SECURITY IN CLOUD',
+              content: 'Inter Cloud Resource Management – Resource Provisioning and Resource Provisioning Methods – Global Exchange of Cloud Resources – Security Overview – Cloud Security Challenges – Software-as-a-Service Security – Security Governance – Virtual Machine Security – IAM – Security Standards.'
+            },
+            {
+              chapterName: 'Unit 5 - CLOUD TECHNOLOGIES AND ADVANCEMENTS',
+              content: 'Hadoop – MapReduce – Virtual Box -- Google App Engine – Programming Environment for Google App Engine –– Open Stack – Federation in the Cloud – Four Levels of Federation – Federated Services and Applications – Future of Federatio'
+            },
+          ]
           }, {
             subjectName: 'HS8151–Communicative English',
               units:[
