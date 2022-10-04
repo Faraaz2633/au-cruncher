@@ -14,7 +14,7 @@ const Sem6Eee = () => {
         {
           chapterName: "Unit 2 - Functions of Several Variables",
           content:
-            "Partial differentiation — Homogeneous functions and Euler?s theorem — Total derivative — Change of variables — Jacobians — Partial differentiation of implicit functions — Taylor?s series for functions of two variables — Maxima and minima of functions of two variables — Lagrange?s method of undetermined multipliers.",
+            "Partial differentiation — Homogeneous functions and Euler?s theorem — Total derivative — Change of variables — Jacobians — Partial differentiation of implicit functions — Taylor?s series for functions of two variables — Maxima and minima of functions of two variables — Lagrange?s method of undetermined multipliers.Partial differentiation — Homogeneous functions and Euler?s theorem — Total derivative — Change of variables — Jacobians — Partial differentiation of implicit functions — Taylor?s series for functions of two variables — Maxima and minima of functions of two variables — Lagrange?s method of undetermined multipliersPartial differentiation — Homogeneous functions and Euler?s theorem — Total derivative — Change of variables — Jacobians — Partial differentiation of implicit functions — Taylor?s series for functions of two variables — Maxima and minima of functions of two variables — Lagrange?s method of undetermined multipliers",
         },
         {
           chapterName: "Unit 3 - INTEGRAL CALCULUS",
