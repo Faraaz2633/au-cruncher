@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import Accordions from "../../../components/Accordions";
 
 const Sem7Civil = () => {
@@ -9,7 +9,7 @@ const Sem7Civil = () => {
         {
           chapterName: "Unit 1 - QUANTITY ESTIMATION",
           content:
-            "Philosophy —  Purpose —  Methods of estimation —  Types of estimates —  Approximate estimates — Detailed estimate —  Estimation of quantities for buildings, bituminous and cement concreteroads, septic tank, soak pit, retaining walls —  culverts (additional practice in class room using softwares)"
+            "Philosophy —  Purpose —  Methods of estimation —  Types of estimates —  Approximate estimates — Detailed estimate —  Estimation of quantities for buildings, bituminous and cement concreteroads, septic tank, soak pit, retaining walls —  culverts (additional practice in class room using softwares)",
         },
         {
           chapterName: "Unit 2 - RATE ANALYSIS AND COSTING",
@@ -97,10 +97,8 @@ const Sem7Civil = () => {
       subjectName: "Proffessional Elective III",
       units: [
         {
-          chapterName:
-            "Professional Elective",
-          content:
-            " ",
+          chapterName: "Professional Elective",
+          content: " ",
         },
       ],
     },
@@ -109,18 +107,19 @@ const Sem7Civil = () => {
       units: [
         {
           chapterName: "Open Elective",
-          content:
-            " ",
+          content: " ",
         },
       ],
     },
   ];
   return (
     <div className="min-h-screen pt-12 m-auto w-[90%]">
-      <h1 className="text-xl font-semibold flex justify-center">CIVIL Sem - 7</h1>
+      <h1 className="text-xl font-semibold flex justify-center">
+        CIVIL Sem - 7
+      </h1>
       <Accordions data={data} />
     </div>
-  )
-}
+  );
+};
 
-export default Sem7Civil
+export default Sem7Civil;
