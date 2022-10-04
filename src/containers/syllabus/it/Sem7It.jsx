@@ -37,20 +37,20 @@ const Sem1IT = () => {
               content: 'Security trends - Legal, Ethical and Professional Aspects of Security, Need for Security at Multiple levels, Security Policies - Model of network security – Security attacks, services and mechanisms – OSI security architecture – Classical encryption techniques: substitution techniques, transposition techniques, steganography).- Foundations of modern cryptography: perfect security – information theory – product cryptosystem – cryptanalysis.'
             },
             {
-              chapterName: 'Unit 2 -',
-              content: ''
+              chapterName: 'Unit 2 - SYMMETRIC KEY CRYPTOGRAPHY',
+              content: 'MATHEMATICS OF SYMMETRIC KEY CRYPTOGRAPHY: Algebraic structures - Modular arithmetic-Euclid‟s algorithm- Congruence and matrices - Groups, Rings, Fields- Finite fields- SYMMETRIC KEY CIPHERS: SDES – Block cipher Principles of DES – Strength of DES – Differential and linear cryptanalysis - Block cipher design principles – Block cipher mode of operation – Evaluation criteria for AES – Advanced Encryption Standard - RC4 – Key distribution.'
             },
             {
-              chapterName: 'Unit 3 -',
-              content: ''
+              chapterName: 'Unit 3 - PUBLIC KEY CRYPTOGRAPHY',
+              content: 'MATHEMATICS OF ASYMMETRIC KEY CRYPTOGRAPHY: Primes – Primality Testing – Factorization – Euler‘s totient function, Fermat‘s and Euler‘s Theorem - Chinese Remainder Theorem – Exponentiation and logarithm - ASYMMETRIC KEY CIPHERS: RSA cryptosystem – Key distribution – Key management – Diffie Hellman key exchange - ElGamal cryptosystem – Elliptic curve arithmetic-Elliptic curve cryptography. '
             },
             {
-              chapterName: 'Unit 4 -',
-              content: ''
+              chapterName: 'Unit 4 - MESSAGE AUTHENTICATION AND INTEGRITY',
+              content: 'Authentication requirement – Authentication function – MAC – Hash function – Security of hash function and MAC – SHA –Digital signature and authentication protocols – DSS- Entity Authentication: Biometrics, Passwords, Challenge Response protocols- Authentication applications - Kerberos, X.509'
             },
             {
-              chapterName: 'Unit 5 -',
-              content: ''
+              chapterName: 'Unit 5 - SECURITY PRACTICE AND SYSTEM SECURITY',
+              content: 'Electronic Mail security – PGP, S/MIME – IP security – Web Security - SYSTEM SECURITY: Intruders – Malicious software – viruses – Firewalls'
             },
           ]
         }, {
