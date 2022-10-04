@@ -13,7 +13,7 @@ const Sem4Cse = () => {
           },
           {
             chapterName: 'Unit 2 - TWO — DIMENSIONAL RANDOM VARIABLES',
-            content: 'oint distributions — Marginal and conditional distributions — Covariance — Correlation and linear regression — Transformation of random variables — Central limit theorem (for independent and identically distributed  of the random variables).'
+            content: 'oint distributions — Marginal and conditional distributions — Covariance — Correlation and linear regression — Transformation of random variables — Central limit theorem (for independent and identically distributed random variables).'
           },
           {
             chapterName: 'Unit 3 - RANDOM PROCESSES ',
@@ -25,7 +25,7 @@ const Sem4Cse = () => {
           },
           {
             chapterName: 'Unit 5 - ADVANCED QUEUEING MODELS',
-            content: 'Finite source of models — M/G/1 queue — Pollaczek Khinchin formula — M/D/1 and M/EK/1 as special cases — Series queues — Open Jackson networks.'
+            content: 'Finite source models — M/G/1 queue — Pollaczek Khinchin formula — M/D/1 and M/EK/1 as special cases — Series queues — Open Jackson networks.'
           }
         ]
       },
