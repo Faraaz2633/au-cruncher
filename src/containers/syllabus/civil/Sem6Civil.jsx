@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import Accordions from "../../../components/Accordions";
 
 const Sem6Civil = () => {
@@ -97,8 +97,7 @@ const Sem6Civil = () => {
       subjectName: "CE8604 HIGHWAY ENGINEERING",
       units: [
         {
-          chapterName:
-            "UNIT I HIGHWAY PLANNING AND ALIGNMENT ",
+          chapterName: "UNIT I HIGHWAY PLANNING AND ALIGNMENT ",
           content:
             "Significance of highway planning – Modal limitations towards sustainability - History of roaddevelopment in India – factors influencing highway alignment – Soil suitability analysis - Roadecology - Engineering surveys for alignment, objectives, conventional and modern methods -Classification of highways – Locations and functions – Typical cross sections of Urban and Ruralroads.",
         },
@@ -143,8 +142,7 @@ const Sem6Civil = () => {
             "Objectives – Selection of Treatment Methods – Principles, Functions, - Activated Sludge Process and Extended aeration systems -Trickling filters– Sequencing Batch Reactor(SBR) – Membrane Bioreactor - UASB – Waste Stabilization Ponds – - Other treatment methods -Reclamation and Reuse of sewage - Recent Advances in Sewage Treatment – Construction, Operation and Maintenance aspects.",
         },
         {
-          chapterName:
-            "UNIT IV DISPOSAL OF SEWAGE",
+          chapterName: "UNIT IV DISPOSAL OF SEWAGE",
           content:
             "Standards for– Disposal - Methods – dilution – Mass balance principle - Self purification of riverOxygen sag curve – deoxygenation and reaeration - Streeter–Phelps model - Land disposal – Sewage farming – sodium hazards - Soil dispersion system. ",
         },
@@ -160,12 +158,10 @@ const Sem6Civil = () => {
       units: [
         {
           chapterName: " Professional Elective ",
-          content:
-            " ",
+          content: " ",
         },
       ],
     },
-    
   ];
 
   return (
@@ -175,7 +171,7 @@ const Sem6Civil = () => {
       </h1>
       <Accordions data={data} />
     </div>
-  )
-}
+  );
+};
 
-export default Sem6Civil
+export default Sem6Civil;
