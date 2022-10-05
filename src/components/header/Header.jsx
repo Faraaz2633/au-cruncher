@@ -46,7 +46,7 @@ const Header = () => {
             Syllabus
           </Link>
           <a
-            href="http://coe1.annauniv.edu/home/students_corner.php"
+            href="http://coe1.annauniv.edu/home/index.php"
             target="_blank"
             onClick={toggleOpen}
             className="nav_links"
