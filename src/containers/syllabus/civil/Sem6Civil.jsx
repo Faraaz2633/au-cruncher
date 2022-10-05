@@ -63,6 +63,108 @@ const Sem6Civil = () => {
         },
       ],
     },
+    {
+      subjectName: "CE8603 IRRIGATION ENGINEERING ",
+      units: [
+        {
+          chapterName: "UNIT I CROP WATER REQUIREMENT ",
+          content:
+            "Need and classification of irrigation- historical development and merits and demerits of irrigationtypes of crops-crop season-duty, delta and base period- consumptive use of crops- estimation ofEvapotranspiration using experimental and theoretical methods",
+        },
+        {
+          chapterName: "UNIT II IRRIGATION METHODS",
+          content:
+            "Tank irrigation – Well irrigation – Irrigation methods: Surface and Sub-Surface and Micro Irrigation – design of drip and sprinkler irrigation – ridge and furrow irrigation-Irrigation scheduling – Waterdistribution system- Irrigation efficiencies.",
+        },
+        {
+          chapterName: "UNIT III DIVERSION AND IMPOUNDING STRUCTURES",
+          content:
+            "Conditionals: Boolean values and operators, conditional (if), alternative (if-else), chained conditional (if-elif-else); Iteration: state, while, for, break, continue, pass; Fruitful functions: return values, parameters, local and global scope, function composition, recursion; Strings: string slices,immutability, string functions and methods, string module; Lists as arrays. Illustrative programs: square root, gcd, exponentiation, sum an array of numbers, linear search, binary search.",
+        },
+        {
+          chapterName: "UNIT IV CANAL IRRIGATION",
+          content:
+            "Canal regulations – direct sluice - Canal drop – Cross drainage works-Canal outlets – Design ofprismatic canal-canal alignments-Canal lining - Kennedy’s and Lacey’s Regime theory-Design ofunlined canal.",
+        },
+        {
+          chapterName: "UNIT V WATER MANAGEMENT IN IRRIGATION",
+          content:
+            "Modernization techniques- Rehabilitation – Optimization of water use-Minimizing water losses- Onform development works-Participatory irrigation management- Water resources associationsChanging paradigms in water management-Performance evaluation-Economic aspects ofirrigation",
+        },
+      ],
+    },
+    {
+      subjectName: "CE8604 HIGHWAY ENGINEERING",
+      units: [
+        {
+          chapterName:
+            "UNIT I HIGHWAY PLANNING AND ALIGNMENT ",
+          content:
+            "Significance of highway planning – Modal limitations towards sustainability - History of roaddevelopment in India – factors influencing highway alignment – Soil suitability analysis - Roadecology - Engineering surveys for alignment, objectives, conventional and modern methods -Classification of highways – Locations and functions – Typical cross sections of Urban and Ruralroads.",
+        },
+        {
+          chapterName: "UNIT II GEOMETRIC DESIGN OF HIGHWAYS",
+          content:
+            "Cross sectional elements - Sight distances – Horizontal curves, Super elevation, transition curves,widening at curves – Vertical curves - Gradients, Special consideration for hill roads - Hairpinbends – Lateral and vertical clearance at underpasses.",
+        },
+        {
+          chapterName: "UNIT III DESIGN OF FLEXIBLE AND RIGID PAVEMENTS ",
+          content:
+            "Pavement components and their role - Design principles -Design practice for flexible and rigidPavements (IRC methods only) – Embankments- Problems in Flexible pavement design",
+        },
+        {
+          chapterName: "UNIT IV HIGHWAY CONSTRUCTION MATERIALS AND PRACTICE",
+          content:
+            "Highway construction materials, properties, testing methods – CBR Test for subgrade - tests on aggregate & bitumen – Test on Bituminous mixes-Construction practice including modern ",
+        },
+        {
+          chapterName: "UNIT V EVALUATION AND MAINTENANCE OF PAVEMENTS",
+          content:
+            "Pavement distress in flexible and rigid pavements – Types of maintenance – PavementManagement Systems - Pavement evaluation, roughness, present serviceability index, skid ",
+        },
+      ],
+    },
+    {
+      subjectName: "EN8592 WASTEWATER ENGINEERING ",
+      units: [
+        {
+          chapterName: "UNIT I PLANNING AND DESIGN OF SEWERAGE SYSTEM",
+          content:
+            "Characteristics and composition of sewage - population equivalent -Sanitary sewage flow estimation – Sewer materials – Hydraulics of flow in sanitary sewers – Sewer design – Storm drainage-Storm runoff estimation – sewer appurtenances – corrosion in sewers – prevention and control – sewage pumping-drainage in buildings-plumbing systems for drainage - Rain Water ting.",
+        },
+        {
+          chapterName: "UNIT II PRIMARY TREATMENT OF SEWAGE",
+          content:
+            "Objectives – Unit Operations and Processes – Selection of treatment processes –- Onsite  sanitation - Septic tank- Grey water harvesting – Primary treatment – Principles, functions and design of sewage treatment units - screens - grit chamber-primary sedimentation tanks – Construction, Operation and Maintenance aspects.",
+        },
+        {
+          chapterName: "UNIT III SECONDARY TREATMENT OF SEWAGE",
+          content:
+            "Objectives – Selection of Treatment Methods – Principles, Functions, - Activated Sludge Process and Extended aeration systems -Trickling filters– Sequencing Batch Reactor(SBR) – Membrane Bioreactor - UASB – Waste Stabilization Ponds – - Other treatment methods -Reclamation and Reuse of sewage - Recent Advances in Sewage Treatment – Construction, Operation and Maintenance aspects.",
+        },
+        {
+          chapterName:
+            "UNIT IV DISPOSAL OF SEWAGE",
+          content:
+            "Standards for– Disposal - Methods – dilution – Mass balance principle - Self purification of riverOxygen sag curve – deoxygenation and reaeration - Streeter–Phelps model - Land disposal – Sewage farming – sodium hazards - Soil dispersion system. ",
+        },
+        {
+          chapterName: "UNIT V SLUDGE TREATMENT AND DISPOSAL",
+          content:
+            "Objectives - Sludge characterization – Thickening - Design of gravity thickener- Sludge digestion – Standard rate and High rate digester design- Biogas recovery – Sludge Conditioning and Dewatering – Sludge drying beds- ultimate residue disposal – recent advances.",
+        },
+      ],
+    },
+    {
+      subjectName: "Professional Elective II",
+      units: [
+        {
+          chapterName: " Professional Elective ",
+          content:
+            " ",
+        },
+      ],
+    },
     
   ];
 
