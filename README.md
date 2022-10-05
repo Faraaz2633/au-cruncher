@@ -4,7 +4,7 @@
 
 <p id="description">An Multi purpose app created for Anna University Students which includes calculating GPA, CGPA and Attendance calculator. It also has all the syllabus for all the semester with notes.</p>
 <h2>✨Live </h2>
-AU Cruncher - https://aucruncher.vercel.app
+AU Cruncher - <a href="https://aucruncher.vercel.app"> aucruncher.vercel.app</a>
 
 
 <h2>📸Project Screenshots:</h2>
