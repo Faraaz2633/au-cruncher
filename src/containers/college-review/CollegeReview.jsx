@@ -4,6 +4,7 @@ import { signInWithPopup, signOut } from "firebase/auth";
 import { MdOutlineLogin, MdOutlineLogout } from "react-icons/md";
 import { FaTrashAlt } from "react-icons/fa";
 import { Link, useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet";
 import toast from "react-hot-toast";
 import {
   getDocs,
@@ -112,6 +113,50 @@ const CollegeReview = () => {
 
   return (
     <section className="min-h-screen w-[90%] m-auto pt-12">
+      <Helmet>
+        <title>AU Cruncher: College Review for Anna University Students</title>
+        <meta
+          name="title"
+          content="AU Cruncher College Reviews: Unbiased Insights for Anna University Students"
+        />
+        <meta
+          name="description"
+          content="Discover unbiased college reviews on AU Cruncher, providing valuable insights for Anna University students. Make informed decisions about colleges and universities with our comprehensive platform. Access firsthand experiences, ratings, and feedback from fellow students, empowering you to choose the best educational institution. Join AU Cruncher today and gain valuable perspectives to shape your educational journey at Anna University."
+        />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://aucruncher.vercel.app/collegereview" />
+        <meta
+          property="og:title"
+          content="AU Cruncher College Reviews: Unbiased Insights for Anna University Students"
+        />
+        <meta
+          property="og:description"
+          content="Discover unbiased college reviews on AU Cruncher, providing valuable insights for Anna University students. Make informed decisions about colleges and universities with our comprehensive platform. Access firsthand experiences, ratings, and feedback from fellow students, empowering you to choose the best educational institution. Join AU Cruncher today and gain valuable perspectives to shape your educational journey at Anna University."
+        />
+        <meta
+          property="og:image"
+          content="https://i.ibb.co/vqqw9HN/image.png"
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:url"
+          content="https://aucruncher.vercel.app/collegereview"
+        />
+        <meta
+          name="twitter:title"
+          content="AU Cruncher College Reviews: Unbiased Insights for Anna University Students"
+        />
+        <meta
+          name="twitter:description"
+          content="Discover unbiased college reviews on AU Cruncher, providing valuable insights for Anna University students. Make informed decisions about colleges and universities with our comprehensive platform. Access firsthand experiences, ratings, and feedback from fellow students, empowering you to choose the best educational institution. Join AU Cruncher today and gain valuable perspectives to shape your educational journey at Anna University."
+        />
+        <meta
+          name="twitter:image"
+          content="https://i.ibb.co/vqqw9HN/image.png"
+        />
+      </Helmet>
       <div className="bg-[#21222D] flex justify-between items-center p-4 md:p-6 rounded-md">
         <div className="text-white font-bold md:text-xl">
           College <span className="text-[#0689ff]">Review</span>
