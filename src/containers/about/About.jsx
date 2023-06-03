@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
+import { Helmet } from "react-helmet";
 // import { FaGithub } from "react-icons/fa";
 // import { BsLinkedin } from "react-icons/bs";
 
 const About = () => {
   const [columns, setColumns] = useState(12);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-  
+
   const setWindowDimensions = () => {
     setWindowWidth(window.innerWidth);
   };
@@ -21,16 +22,59 @@ const About = () => {
       setColumns(5);
     } else if (windowWidth <= 700) {
       setColumns(7);
-    } else if (windowWidth <= 1024){
+    } else if (windowWidth <= 1024) {
       setColumns(10);
     } else {
       setColumns(12);
     }
-
-  }, [windowWidth])
+  }, [windowWidth]);
 
   return (
     <div className="mt-10 md:mt-16 leading-8 md:leading-10 min-h-screen">
+      <Helmet>
+        <title>About - AU Cruncher | Empowering Anna University Students</title>
+        <meta
+          name="title"
+          content="About AU Cruncher | Empowering Anna University Students"
+        />
+        <meta
+          name="description"
+          content="Learn about AU Cruncher, the dedicated platform empowering Anna University students. Discover our mission to provide essential tools, calculators, syllabus information, and resources to enhance academic success. Join AU Cruncher today and unlock a comprehensive platform tailored to the needs of Anna University students."
+        />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://aucruncher.vercel.app/about" />
+        <meta
+          property="og:title"
+          content="About AU Cruncher | Empowering Anna University Students"
+        />
+        <meta
+          property="og:description"
+          content="Learn about AU Cruncher, the dedicated platform empowering Anna University students. Discover our mission to provide essential tools, calculators, syllabus information, and resources to enhance academic success. Join AU Cruncher today and unlock a comprehensive platform tailored to the needs of Anna University students."
+        />
+        <meta
+          property="og:image"
+          content="https://i.ibb.co/vqqw9HN/image.png"
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:url"
+          content="https://aucruncher.vercel.app/about"
+        />
+        <meta
+          name="twitter:title"
+          content="About AU Cruncher | Empowering Anna University Students"
+        />
+        <meta
+          name="twitter:description"
+          content="Learn about AU Cruncher, the dedicated platform empowering Anna University students. Discover our mission to provide essential tools, calculators, syllabus information, and resources to enhance academic success. Join AU Cruncher today and unlock a comprehensive platform tailored to the needs of Anna University students."
+        />
+        <meta
+          name="twitter:image"
+          content="https://i.ibb.co/vqqw9HN/image.png"
+        />
+      </Helmet>
       {/*  about site*/}
 
       <h1 className="text-3xl md:text-4xl text-center font font-semibold">

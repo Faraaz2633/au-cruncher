@@ -1,8 +1,47 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 const NoPage = () => {
   return (
     <div className="min-h-screen">
+      <Helmet>
+        <title>Page Not Found - AU Cruncher</title>
+        <meta name="title" content="Oops! Page Not Found - AU Cruncher" />
+        <meta
+          name="description"
+          content="Oops! The page you're looking for could not be found. Explore other valuable resources on AU Cruncher for Anna University students. Stay connected with our platform and discover a wealth of academic tools, calculators, syllabus information, and more. Join AU Cruncher today to enhance your educational experience."
+        />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://aucruncher.vercel.app/" />
+        <meta
+          property="og:title"
+          content="Oops! Page Not Found - AU Cruncher"
+        />
+        <meta
+          property="og:description"
+          content="Oops! The page you're looking for could not be found. Explore other valuable resources on AU Cruncher for Anna University students. Stay connected with our platform and discover a wealth of academic tools, calculators, syllabus information, and more. Join AU Cruncher today to enhance your educational experience."
+        />
+        <meta
+          property="og:image"
+          content="https://i.ibb.co/vqqw9HN/image.png"
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://aucruncher.vercel.app/" />
+        <meta
+          name="twitter:title"
+          content="Oops! Page Not Found - AU Cruncher"
+        />
+        <meta
+          name="twitter:description"
+          content="Oops! The page you're looking for could not be found. Explore other valuable resources on AU Cruncher for Anna University students. Stay connected with our platform and discover a wealth of academic tools, calculators, syllabus information, and more. Join AU Cruncher today to enhance your educational experience."
+        />
+        <meta
+          name="twitter:image"
+          content="https://i.ibb.co/vqqw9HN/image.png"
+        />
+      </Helmet>
       <div className="flex justify-center m-auto text-white min-h-screen max-h-screen">
         <svg
           width="1840"

@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
-import Modal from '../../components/Modal';
+import React, { useState } from "react";
+import { Helmet } from "react-helmet";
+import Modal from "../../components/Modal";
 
 const CGPA = () => {
-
   const [sems, setSems] = useState(8);
 
   const [result, setResult] = useState(0);
@@ -19,120 +19,179 @@ const CGPA = () => {
   const [eight, setEight] = useState(0);
 
   const handleChange = (e) => {
-    setSems(e.target.value)
-  }
+    setSems(e.target.value);
+  };
 
   const handleChangeInput = (e) => {
-
     switch (e.target.name) {
-      case 'one':
+      case "one":
         setOne(e.target.value);
         break;
 
-      case 'two':
+      case "two":
         setTwo(e.target.value);
         break;
 
-      case 'three':
+      case "three":
         setThree(e.target.value);
         break;
 
-      case 'four':
+      case "four":
         setFour(e.target.value);
         break;
 
-      case 'five':
+      case "five":
         setFive(e.target.value);
         break;
 
-      case 'six':
+      case "six":
         setSix(e.target.value);
         break;
 
-      case 'seven':
+      case "seven":
         setSeven(e.target.value);
         break;
 
-      case 'eight':
+      case "eight":
         setEight(e.target.value);
         break;
 
       default:
-        console.log('hi');
+        console.log("hi");
         break;
     }
-  }
+  };
 
   const calculateResult = () => {
-    const totalPoints = Number(one) + Number(two) + Number(three) + Number(four) + Number(five) + Number(six) + Number(seven) + Number(eight);
-    console.log(one)
-    console.warn(totalPoints)
+    const totalPoints =
+      Number(one) +
+      Number(two) +
+      Number(three) +
+      Number(four) +
+      Number(five) +
+      Number(six) +
+      Number(seven) +
+      Number(eight);
+    console.log(one);
+    console.warn(totalPoints);
     setResult((totalPoints / sems).toFixed(2));
-  }
+  };
 
   const toggleModal = () => {
     calculateResult();
     setIsOpen(!isOpen);
-  }
+  };
 
   const semesters = [
     {
       state: one,
       setState: setOne,
-      text: 'Semster 1 GPA',
-      name: 'one'
+      text: "Semster 1 GPA",
+      name: "one",
     },
     {
       state: two,
       setState: setTwo,
-      text: 'Semster 2 GPA',
-      name: 'two'
+      text: "Semster 2 GPA",
+      name: "two",
     },
     {
       state: three,
       setState: setThree,
-      text: 'Semster 3 GPA',
-      name: 'three'
+      text: "Semster 3 GPA",
+      name: "three",
     },
     {
       state: four,
       setState: setFour,
-      text: 'Semster 4 GPA',
-      name: 'four'
+      text: "Semster 4 GPA",
+      name: "four",
     },
     {
       state: five,
       setState: setFive,
-      text: 'Semster 5 GPA',
-      name: 'five'
+      text: "Semster 5 GPA",
+      name: "five",
     },
     {
       state: six,
       setState: setSix,
-      text: 'Semster 6 GPA',
-      name: 'six'
+      text: "Semster 6 GPA",
+      name: "six",
     },
     {
       state: seven,
       setState: setSeven,
-      text: 'Semster 7 GPA',
-      name: 'seven'
+      text: "Semster 7 GPA",
+      name: "seven",
     },
     {
       state: eight,
       setState: setEight,
-      text: 'Semster 8 GPA',
-      name: 'eight'
-    }
-  ]
+      text: "Semster 8 GPA",
+      name: "eight",
+    },
+  ];
 
   return (
     <div className="min-h-screen w-[90%] m-auto pt-12">
-      <h2 className="font-bold text-2xl flex justify-center">CGPA Calculator</h2>
-      <h4 className="text-xl flex justify-center py-2">Calculate your overall CGPA here</h4>
+      <Helmet>
+        <title>AU Cruncher: CGPA Calculator for Anna University Students</title>
+        <meta
+          name="title"
+          content="AU Cruncher CGPA Calculator: Effortless Cumulative Grade Point Average Calculation"
+        />
+        <meta
+          name="description"
+          content="Calculate your CGPA effortlessly with the AU Cruncher CGPA Calculator, designed exclusively for Anna University students. Simplify the process of determining your Cumulative Grade Point Average and gain valuable insights into your academic performance. Achieve academic excellence and make informed decisions about your educational goals using our user-friendly tool. Join AU Cruncher today and unlock a hassle-free way to calculate your CGPA, tailored for Anna University students."
+        />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://aucruncher.vercel.app/cgpa" />
+        <meta
+          property="og:title"
+          content="AU Cruncher CGPA Calculator: Effortless Cumulative Grade Point Average Calculation"
+        />
+        <meta
+          property="og:description"
+          content="Calculate your CGPA effortlessly with the AU Cruncher CGPA Calculator, designed exclusively for Anna University students. Simplify the process of determining your Cumulative Grade Point Average and gain valuable insights into your academic performance. Achieve academic excellence and make informed decisions about your educational goals using our user-friendly tool. Join AU Cruncher today and unlock a hassle-free way to calculate your CGPA, tailored for Anna University students."
+        />
+        <meta
+          property="og:image"
+          content="https://i.ibb.co/vqqw9HN/image.png"
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:url"
+          content="https://aucruncher.vercel.app/cgpa"
+        />
+        <meta
+          name="twitter:title"
+          content="AU Cruncher CGPA Calculator: Effortless Cumulative Grade Point Average Calculation"
+        />
+        <meta
+          name="twitter:description"
+          content="Calculate your CGPA effortlessly with the AU Cruncher CGPA Calculator, designed exclusively for Anna University students. Simplify the process of determining your Cumulative Grade Point Average and gain valuable insights into your academic performance. Achieve academic excellence and make informed decisions about your educational goals using our user-friendly tool. Join AU Cruncher today and unlock a hassle-free way to calculate your CGPA, tailored for Anna University students."
+        />
+        <meta
+          name="twitter:image"
+          content="https://i.ibb.co/vqqw9HN/image.png"
+        />
+      </Helmet>
+      <h2 className="font-bold text-2xl flex justify-center">
+        CGPA Calculator
+      </h2>
+      <h4 className="text-xl flex justify-center py-2">
+        Calculate your overall CGPA here
+      </h4>
       <div className="bg-[#21222D] m-5 p-4 shadow-md rounded-lg max-w-xl ml-auto mr-auto">
         <span>No of semesters you have completed - </span>
-        <select onChange={handleChange} value={sems} className="bg-[#242C3C] text-white rounded-md outline-none p-2">
+        <select
+          onChange={handleChange}
+          value={sems}
+          className="bg-[#242C3C] text-white rounded-md outline-none p-2"
+        >
           <option value={1}>1</option>
           <option value={2}>2</option>
           <option value={3}>3</option>
@@ -144,21 +203,23 @@ const CGPA = () => {
         </select>
       </div>
 
-      <div>{semesters.slice(0, sems).map((semester, i) => (
-        <div
-          key={i}
-          className="bg-[#21222D] m-5 p-4 shadow-md rounded-lg max-w-xl ml-auto mr-auto"
-        >
-          <span>{semester.text}</span>
-          <input
-            className="bg-[#242C3C] ml-4 p-2 rounded-md w-16 outline-none"
-            type="number"
-            name={semester.name}
-            value={semester.state}
-            onChange={handleChangeInput}
-          />
-        </div>
-      ))}</div>
+      <div>
+        {semesters.slice(0, sems).map((semester, i) => (
+          <div
+            key={i}
+            className="bg-[#21222D] m-5 p-4 shadow-md rounded-lg max-w-xl ml-auto mr-auto"
+          >
+            <span>{semester.text}</span>
+            <input
+              className="bg-[#242C3C] ml-4 p-2 rounded-md w-16 outline-none"
+              type="number"
+              name={semester.name}
+              value={semester.state}
+              onChange={handleChangeInput}
+            />
+          </div>
+        ))}
+      </div>
 
       <button
         className=" m-auto flex items-center justify-center p-0.5 mb-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-800"
@@ -169,10 +230,14 @@ const CGPA = () => {
         </span>
       </button>
 
-      <Modal toggleModal={toggleModal} isOpen={isOpen} setIsOpen={setIsOpen} result={result} />
-
+      <Modal
+        toggleModal={toggleModal}
+        isOpen={isOpen}
+        setIsOpen={setIsOpen}
+        result={result}
+      />
     </div>
-  )
-}
+  );
+};
 
-export default CGPA
+export default CGPA;
