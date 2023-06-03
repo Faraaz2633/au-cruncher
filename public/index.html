@@ -1,140 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>
+      AU Cruncher: GPA, CGPA, Attendance Calculators, Syllabus, Results & More
+    </title>
+    <meta
+      name="title"
+      content="AU Cruncher: GPA, CGPA, Attendance Calculators, Syllabus & Results"
+    >
+    <meta
+      name="description"
+      content="Access essential tools and resources for Anna University students on AU Cruncher, the ultimate student portal. Calculate your GPA and CGPA effortlessly, keep track of attendance, and find detailed syllabus information. Enhance your academic journey with our user-friendly calculators and comprehensive syllabus database. Stay organized and achieve academic success with our all-in-one platform designed specifically for Anna University students. Track and analyze your academic results on AU Cruncher to stay informed and make informed decisions about your educational progress. Join AU Cruncher today and take control of your academic excellence."
+    >
 
-<head>
-  <meta charset="utf-8" />
-  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
-  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-  <style>
-    #preloader {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background: #1b1d25;
-      z-index: 9999;
-      transition: all 0.6s ease;
-    }
+    <meta property="og:type" content="website" >
+    <meta property="og:url" content="https://aucruncher.vercel.app/" >
+    <meta
+      property="og:title"
+      content="AU Cruncher: GPA, CGPA, Attendance Calculators, Syllabus & Results"
+    >
+    <meta
+      property="og:description"
+      content="Access essential tools and resources for Anna University students on AU Cruncher, the ultimate student portal. Calculate your GPA and CGPA effortlessly, keep track of attendance, and find detailed syllabus information. Enhance your academic journey with our user-friendly calculators and comprehensive syllabus database. Stay organized and achieve academic success with our all-in-one platform designed specifically for Anna University students. Track and analyze your academic results on AU Cruncher to stay informed and make informed decisions about your educational progress. Join AU Cruncher today and take control of your academic excellence."
+    >
+    <meta property="og:image" content="https://i.ibb.co/vqqw9HN/image.png" >
 
-    /* The loader container */
-
-    .loader {
-      position: relative;
-      width: 200px;
-      height: 200px;
-      background: transparent;
-      border-radius: 50%;
-      transition: all 0.4s ease;
-    }
-
-    /* All Dots Frames */
-
-    .loader .dot-1 {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      z-index: 3;
-      width: 40px;
-      height: 40px;
-      background: #ffffff;
-      border-radius: 50%;
-      animation-fill-mode: both;
-      animation: dot-1 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
-    }
-
-    .loader .dot-2 {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      z-index: 2;
-      width: 70px;
-      height: 70px;
-      background: radial-gradient(circle, #0689ff 0%, #3347ff 100%);
-      border-radius: 50%;
-      animation-fill-mode: both;
-      animation: dot-2 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
-    }
-
-    .loader .dot-3 {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      z-index: 1;
-      width: 110px;
-      height: 110px;
-      background: radial-gradient(circle, #0689ff 0%, #3347ff 100%);
-      border-radius: 50%;
-      animation-fill-mode: both;
-      animation: dot-3 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
-    }
-
-    /* All Dots Animation */
-
-    @keyframes dot-1 {
-
-      0%,
-      70% {
-        transform: translate(-50%, -50%) scale(0);
-        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    <meta name="twitter:card" content="summary_large_image" >
+    <meta name="twitter:url" content="https://aucruncher.vercel.app/" >
+    <meta
+      name="twitter:title"
+      content="AU Cruncher: GPA, CGPA, Attendance Calculators, Syllabus & Results"
+    >
+    <meta
+      name="twitter:description"
+      content="Access essential tools and resources for Anna University students on AU Cruncher, the ultimate student portal. Calculate your GPA and CGPA effortlessly, keep track of attendance, and find detailed syllabus information. Enhance your academic journey with our user-friendly calculators and comprehensive syllabus database. Stay organized and achieve academic success with our all-in-one platform designed specifically for Anna University students. Track and analyze your academic results on AU Cruncher to stay informed and make informed decisions about your educational progress. Join AU Cruncher today and take control of your academic excellence."
+    >
+    <meta name="twitter:image" content="https://i.ibb.co/vqqw9HN/image.png">
+    <style>
+      #preloader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #1b1d25;
+        z-index: 9999;
+        transition: all 0.6s ease;
       }
 
-      100% {
-        transform: translate(-50%, -50%) scale(1);
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-      }
-    }
+      /* The loader container */
 
-    @keyframes dot-2 {
-
-      0%,
-      40% {
-        transform: translate(-50%, -50%) scale(0);
-        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+      .loader {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        background: transparent;
+        border-radius: 50%;
+        transition: all 0.4s ease;
       }
 
-      100% {
-        transform: translate(-50%, -50%) scale(1);
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      /* All Dots Frames */
+
+      .loader .dot-1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 3;
+        width: 40px;
+        height: 40px;
+        background: #ffffff;
+        border-radius: 50%;
+        animation-fill-mode: both;
+        animation: dot-1 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite
+          alternate;
       }
-    }
 
-    @keyframes dot-3 {
-
-      0%,
-      10% {
-        transform: translate(-50%, -50%) scale(0);
-        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+      .loader .dot-2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 70px;
+        height: 70px;
+        background: radial-gradient(circle, #0689ff 0%, #3347ff 100%);
+        border-radius: 50%;
+        animation-fill-mode: both;
+        animation: dot-2 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite
+          alternate;
       }
 
-      100% {
-        transform: translate(-50%, -50%) scale(1);
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      .loader .dot-3 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        width: 110px;
+        height: 110px;
+        background: radial-gradient(circle, #0689ff 0%, #3347ff 100%);
+        border-radius: 50%;
+        animation-fill-mode: both;
+        animation: dot-3 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite
+          alternate;
       }
-    }
-  </style>
-</head>
 
-<body>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root">
-    <div id="preloader">
-      <div class="loader active">
-        <div class="dot-1"></div>
-        <div class="dot-2"></div>
-        <div class="dot-3"></div>
+      /* All Dots Animation */
+
+      @keyframes dot-1 {
+        0%,
+        70% {
+          transform: translate(-50%, -50%) scale(0);
+          box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        100% {
+          transform: translate(-50%, -50%) scale(1);
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        }
+      }
+
+      @keyframes dot-2 {
+        0%,
+        40% {
+          transform: translate(-50%, -50%) scale(0);
+          box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        100% {
+          transform: translate(-50%, -50%) scale(1);
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        }
+      }
+
+      @keyframes dot-3 {
+        0%,
+        10% {
+          transform: translate(-50%, -50%) scale(0);
+          box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        100% {
+          transform: translate(-50%, -50%) scale(1);
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+      <div id="preloader">
+        <div class="loader active">
+          <div class="dot-1"></div>
+          <div class="dot-2"></div>
+          <div class="dot-3"></div>
+        </div>
       </div>
     </div>
-  </div>
-</body>
-
+  </body>
 </html>
